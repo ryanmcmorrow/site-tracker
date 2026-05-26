@@ -1,2 +1,2 @@
-# job-tracker
-tracking job boards
+# site-tracker
+tracking some specific websites
