@@ -14,6 +14,20 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-05-27 (Third Pass)
+
+### General Notes (Updated)
+- google.com/about/careers pages return **HTTP 403** to WebFetch. Must rely on WebSearch snippets.
+- metacareers.com returns **HTTP 403** to WebFetch.
+- **Google Cambridge discovery**: Multiple Google Group PM roles list "Cambridge, MA" as a preferred working location option. These qualify as "Based in Boston or Cambridge, MA" even though Google requires 3 days/week in-office — because the office IS in Boston area. Search specifically for Cambridge, MA Google roles.
+- **Airbnb entity clarification**: Airbnb, Inc. (most roles) uses an "excluded states" model — broader eligibility, MA likely included. Airbnb Payments, Inc. (Payments/Evaluations/Automation, Business Host Payouts roles) uses an "approved states" model — MA is NOT in approved list. Exclude Airbnb Payments, Inc. entity roles for MA applicants.
+- **Cloudflare Group PM Fraud** (boards.greenhouse.io/cloudflare/jobs/5714442) — posted ~Feb 2024, still indexed. Remote US available. Flag as potentially stale (>15 months). Do not re-report after this run unless Greenhouse page confirms still active.
+- **Meta Director PM** — Glassdoor shows "Remote" but Meta currently requires 3-5 days/week in office. Do not include as qualifying remote role.
+- **Stripe "Staff Product Manager, Link Balance"** — previously noted as "office-assigned" with 50% in-office. Confirmed to exclude.
+- **Discord Group PM, Machine Learning** (7675546002) — new Greenhouse job ID found vs old stale URL. Built In SF still shows SF location. Multiple aggregators say closed. Treat as stale SF-based role, do not report.
+
+---
+
 ## Run: 2026-05-27 (Second Pass)
 
 ### General Notes (Updated)
@@ -49,8 +63,9 @@ Accumulated learnings from each run to search smarter over time.
 - Jobs are on both stripe.com/jobs and job-boards.greenhouse.io/stripe.
 - Active roles found (run 1): Dashboard (7913702), Apps & Extensibility Platform (7550590), Enterprise Industries (7812856), Support Experience (7920219), Payments (7819059), Web Presence & Platform (7169955).
 - **New in run 2**: Seller Experience (7191708), Terminal - Global Payment Acceptance (7301942), Billing (6977801), Usage Based Billing (6894642), Local Processor Acquiring (7953691).
-- Stripe consistently has 8-12 open Staff PM roles at any given time.
-- **Exception**: Staff PM, Link Balance (7118153) — described as "office-assigned" with 50% in-office expectation. May be SF/NYC specific. Exclude until location clarified.
+- **New in run 3**: Compliance UX (7573905) — posted ~Feb 2026; Agentic Commerce (7303214).
+- Stripe consistently has 10-14 open Staff PM roles at any given time.
+- **Exception**: Staff PM, Link Balance (7118153) — "office-assigned" with 50% in-office expectation. Confirmed excluded.
 - Future runs: check stripe.com/jobs/search directly via search; look for new job IDs on site:stripe.com.
 - Recommended query: `Stripe "staff product manager" remote "United States" 2026 site:stripe.com`
 
@@ -62,8 +77,8 @@ Accumulated learnings from each run to search smarter over time.
 - **New in run 2**: Lead PM Claude Code (GH 4791979008) — actively confirmed on greenhouse.io.
 - "Lead Product Manager" is Anthropic's equivalent of Staff/Group PM — qualifies on seniority.
 - Offices are primarily San Francisco; some roles also list New York or Seattle.
-- Note: Job IDs for Research/Developer Services may change if re-posted. Track by title+company slug.
-- Future runs: check `Anthropic "lead product manager" site:greenhouse.io 2026`
+- **Run 3 note**: Lead PM Research appeared with NEW job ID 4933813008 (vs old 4684257008). This is a re-post of the same role. Track by title+company slug, not job ID. Do NOT re-report same title unless meaningfully different.
+- Future runs: check `Anthropic "lead product manager" site:greenhouse.io 2026`. Also search for "director" or "group" level roles as Anthropic grows.
 
 ## Discord
 
@@ -77,10 +92,15 @@ Accumulated learnings from each run to search smarter over time.
 ## Google
 
 - 137 Google PM jobs listed in "Boston" area on LinkedIn but this likely includes candidates in Boston applying to Google, not roles based in Boston.
-- Google Cambridge, MA office exists — a few roles may be based there but hard to find specifically.
-- Google generally requires on-site presence for PM roles.
-- No qualifying remote or Boston-based Staff/Group/Director PM roles confirmed in any run.
-- Future runs: search `site:google.com/about/careers "group product manager" OR "director" Boston Cambridge remote` and verify location.
+- Google Cambridge, MA office exists and **multiple Group PM roles list Cambridge, MA as a preferred working location option**.
+- Google requires 3 days/week in-office (hybrid). Cambridge, MA office = Boston area = QUALIFIES.
+- **Confirmed qualifying roles (run 3)**:
+  - Group PM, Search (job 81599409300611782) — "Mountain View, CA or Cambridge, MA" — ACTIVE, salary $240K-$334K
+- **NOT Cambridge**: Group PM, Complex Journeys, Search — New York, NY or Mountain View, CA (not Cambridge)
+- Also found with possible Cambridge listing but unconfirmed: Lead Group PM, Compute, Google Cloud (106894634206012102), Group PM, Google Cloud (129173606920790726)
+- google.com/about/careers returns HTTP 403 to WebFetch. Use WebSearch with site:google.com/about/careers.
+- Future runs: search `Google "Group Product Manager" "Cambridge, MA" 2026 site:google.com/about/careers` to find new Cambridge-eligible roles. Also check `site:careers.google.com "Cambridge" "Group Product Manager"`.
+- Note: Google job IDs are very long (18-digit numbers). Track with slug "google-group-pm-[title]-cambridge-ma".
 
 ## Netflix
 
@@ -93,22 +113,35 @@ Accumulated learnings from each run to search smarter over time.
 ## OpenAI
 
 - OpenAI PM roles are predominantly SF-based (on-site required).
+- All PM roles found in run 3 are explicitly listed as San Francisco (e.g., Product Manager, Codex — SF; Product Operations Manager — SF).
 - No qualifying Staff/Group/Director PM roles remote/Boston-compatible found in any run.
-- Future runs: check `site:openai.com/careers "product manager"` for any new remote options.
+- Future runs: check `site:openai.com/careers "product manager"` for any new remote options. Low priority — skip if time-constrained.
 
 ## Airbnb
 
 - Airbnb's official policy: employees can work from anywhere in the US (US Remote Eligible).
-- **New in run 2**: Staff PM, AI Personalization (careers.airbnb.com/positions/7834495/) — US Remote Eligible. Active listing. $200K-$240K. Note: role title is "Staff Platform Manager, AI Personalization" on remotive but listed as "Staff Product Manager, AI Personalization" on careers.airbnb.com.
-- careers.airbnb.com returns 403 to WebFetch. Use WebSearch + remotive for verification.
-- Future runs: search `Airbnb "staff product manager" OR "staff platform manager" remote 2026 site:careers.airbnb.com` then verify via remotive.
+- **CRITICAL entity distinction**:
+  - **Airbnb, Inc.** (most roles): Uses "excluded states" model — broader eligibility. Massachusetts is likely NOT excluded. These roles qualify.
+  - **Airbnb Payments, Inc.** (payments-related roles): Uses "approved states" model with specific list. Massachusetts is NOT on the approved list. EXCLUDE these roles.
+  - Payments roles that EXCLUDE MA: Business Host Payouts (7747440), Payments/Evaluations/Automation (7674658).
+- Active roles (run 2): AI Personalization (7834495) — US Remote Eligible.
+- **New in run 3** (all Airbnb, Inc. entity = MA likely OK):
+  - Staff Platform Manager, Community Experience Platforms (7451574) — posted Apr 6, 2026
+  - Staff Platform Manager, Trust and Safety (7740258) — posted Mar 24, 2026
+  - Staff Platform Manager, Suspensions, Appeals & Enforcements (7445911)
+  - Staff Platform Manager, Agent Products and Intelligence Platforms (7525175) — posted Jan 14, 2026
+- careers.airbnb.com returns 403 to WebFetch. Use WebSearch + remoterocketship/remotive for verification.
+- Future runs: search `Airbnb "staff product manager" OR "staff platform manager" remote 2026 site:careers.airbnb.com` and verify entity type (Airbnb, Inc. vs Airbnb Payments, Inc.) from job description.
+- Airbnb has 5-8 open Staff PM/Platform Manager roles at any given time. Check for new position IDs each run.
 
 ## Meta
 
-- Meta has Director of Product Management roles but remote policy unclear for senior roles.
+- Meta has Director of Product Management roles, but as of 2026 Meta requires 3-5 days/week in office for PM roles.
+- Glassdoor shows one "Product Management, Director" role listed as "Remote" (job_details/816501496761265), but this is misleading — Meta remote PM roles are "rare exceptions" per industry sources.
 - Director PM roles found: Content Integrity Trust & Safety, Ads Targeting & Countries Monetization, WhatsApp Growth — all appear to be Menlo Park or NYC based.
-- No qualifying confirmed remote roles found in any run.
-- Future runs: check metacareers.com for remote-flagged senior PM roles. Query: `site:metacareers.com "director product management" remote`.
+- metacareers.com returns 403 to WebFetch.
+- No qualifying confirmed remote roles found in any run. Do not report Meta roles without explicit confirmation of Boston-compatible location.
+- Future runs: check `site:metacareers.com "director product management" remote` but also verify via Glassdoor/LinkedIn that the role is actually flagged as remote (not just "can apply from anywhere").
 
 ## Microsoft
 
@@ -119,10 +152,12 @@ Accumulated learnings from each run to search smarter over time.
 
 ## Databricks
 
-- All Staff PM roles found are SF-based (San Francisco, CA) or Seattle — **not Boston-compatible**.
+- Most Staff PM roles are SF-based (San Francisco, CA) or Seattle — **not Boston-compatible**.
 - Staff PM, AI Platform — SF; Staff PM, Databricks Notebooks — SF; Staff PM, Security — Seattle; Staff PM, Content Experience — Seattle.
-- New role found in run 2: Staff PM (generic, job 7649409002) — location unknown.
-- Future runs: check `site:databricks.com/company/careers "product manager" remote` — if remote PM roles appear, verify location.
+- **Run 3 note**: Staff PM, Network Security (6454355002) — primary location SF, but Databricks says "open to remote candidates in other locations." Borderline case. Excluded for now due to primary SF listing, but worth monitoring.
+- Additional roles found (run 3, all SF-excluded): New Product (6971388002), Next Gen Analytics (7332973002), Technical (7625294002), Senior Staff PM (6845707002), Content Experience (8041821002).
+- Staff PM, Data Security appears to be the same role as Network Security under a different name/ID — same 6454355002 base ID.
+- Future runs: search `site:databricks.com/company/careers "product manager"` — if any role explicitly says "remote" without SF caveat, investigate further.
 
 ## Snowflake
 
@@ -135,10 +170,10 @@ Accumulated learnings from each run to search smarter over time.
 
 - Datadog has a Boston office (Greater Boston Area) — some roles are Boston-based.
 - Director PM roles found in run 2: Applied AI, Core Platforms, AI Observability, Security — ALL based in New York, NY (hybrid) — **not Boston-compatible**.
+- **Run 3**: Staff PM, Product Analytics (5901346) — Built In NYC + Glassdoor confirm New York, NY hybrid. EXCLUDED.
 - careers.datadoghq.com detail pages: some return 404 (confirmed role removed). 404 = job closed.
-- careers.datadoghq.com/product-management/ page loads but shows empty job list (JS-rendered, WebFetch can't read it).
-- careers.datadoghq.com/remote/ page also shows empty job list to WebFetch.
-- Future runs: use `site:careers.datadoghq.com "director" OR "staff product manager"` search. Look for Boston or Remote location indicators. Any NYC/hybrid result = exclude.
+- careers.datadoghq.com/product-management/ and /remote/ pages show empty job list to WebFetch (JS-rendered).
+- Future runs: use `site:careers.datadoghq.com "director" OR "staff product manager"` search. Look for Boston or Remote location indicators. Any NYC/hybrid result = exclude. Monitor for any remote/Boston-based new PM roles.
 
 ## GitHub
 
@@ -154,9 +189,10 @@ Accumulated learnings from each run to search smarter over time.
 
 ## Cloudflare
 
-- Cloudflare uses greenhouse.io for job postings (job-boards.greenhouse.io/cloudflare).
+- Cloudflare uses greenhouse.io for job postings (job-boards.greenhouse.io/cloudflare and boards.greenhouse.io/cloudflare).
 - greenhouse.io/cloudflare pages return 403 to WebFetch.
-- **Senior Director of Product, App Performance** (GH 6951791) — listed on remoterocketship as "Austin, TX - hybrid" and on JobTarget as "San Francisco, CA". **NOT remote, excluded**.
+- **Senior Director of Product, App Performance** (GH 6951791) — Austin, TX hybrid, excluded.
+- **Group Product Manager, Fraud** (boards.greenhouse.io/cloudflare/jobs/5714442) — Remote US available (Austin, Champaign, SF, Washington DC, or Remote-US). **POTENTIALLY STALE** — posted ~Feb 2024. Still indexed on Greenhouse and aggregators as of May 2026. Reported in run 3.
 - Most PM roles at Cloudflare appear to be Austin TX, NYC, or San Francisco office-based.
-- Some remote Cloudflare PM roles exist (e.g., PM Cloud Email Security, remote US) but at senior/regular level, not Staff or Director.
-- Future runs: search `Cloudflare "staff product manager" OR "director product management" remote 2026 site:greenhouse.io` and verify location via ZipRecruiter/Built In snippets.
+- Future runs: search `Cloudflare "group product manager" OR "director product" remote 2026` and also check `Cloudflare site:greenhouse.io "product manager" remote`. If Fraud role (5714442) still appears in search results, do NOT re-report (already in seen_jobs). Verify it's still open before including any new Cloudflare roles.
+- Note: boards.greenhouse.io (old URL style) is used for older Cloudflare postings vs job-boards.greenhouse.io (new style).
