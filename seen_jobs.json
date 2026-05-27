@@ -55,6 +55,48 @@
     "company": "Reddit",
     "url": "https://www.remoterocketship.com/us/company/reddit-inc/jobs/staff-product-manager-ads-business-manager-united-states-remote/"
   },
+  "reddit-staff-pm-ranking-core-experience-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Ranking, Core Experience",
+    "company": "Reddit",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/6486227"
+  },
+  "reddit-staff-pm-reddit-pro-large-businesses-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Reddit Pro (Large Businesses)",
+    "company": "Reddit",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/6478066"
+  },
+  "reddit-staff-pm-compliance-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Compliance",
+    "company": "Reddit",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/7014057"
+  },
+  "reddit-staff-pm-ranking-data-api-developer-platform-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Ranking & Data API (Developer Platform)",
+    "company": "Reddit",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/7311413"
+  },
+  "reddit-staff-pm-ads-api-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": "2026-05-04",
+    "title": "Staff Product Manager, Ads API",
+    "company": "Reddit",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/7746309"
+  },
+  "reddit-staff-pm-ads-marketplace-supply-optimization-ranking-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Ads Marketplace - Supply Optimization & Ranking",
+    "company": "Reddit",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/6563939"
+  },
   "stripe-staff-pm-dashboard-remote-usa": {
     "first_seen": "2026-05-27",
     "posted": "2026-05-12",
@@ -81,14 +123,14 @@
     "posted": "2026-01-05",
     "title": "Staff Product Manager, Web Presence & Platform",
     "company": "Stripe",
-    "url": "https://himalayas.app/companies/stripe/jobs/staff-product-manager-web-presence-platform"
+    "url": "https://stripe.com/jobs/listing/staff-product-manager-web-presence-platform/7169955"
   },
   "stripe-staff-pm-support-experience-remote-usa": {
     "first_seen": "2026-05-27",
     "posted": null,
     "title": "Staff Product Manager, Support Experience",
     "company": "Stripe",
-    "url": "https://stripe.com/jobs/search"
+    "url": "https://stripe.com/jobs/listing/staff-product-manager-support-experience/7920219"
   },
   "stripe-staff-pm-payments-remote-usa": {
     "first_seen": "2026-05-27",
@@ -96,6 +138,41 @@
     "title": "Staff Product Manager, Payments",
     "company": "Stripe",
     "url": "https://stripe.com/jobs/listing/staff-product-manager-payments/7819059"
+  },
+  "stripe-staff-pm-seller-experience-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Seller Experience",
+    "company": "Stripe",
+    "url": "https://stripe.com/jobs/listing/staff-product-manager-seller-experience/7191708"
+  },
+  "stripe-staff-pm-terminal-global-payment-acceptance-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Terminal - Global Payment Acceptance",
+    "company": "Stripe",
+    "url": "https://stripe.com/jobs/listing/staff-product-manager-terminal-global-payment-acceptance/7301942"
+  },
+  "stripe-staff-pm-billing-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Billing",
+    "company": "Stripe",
+    "url": "https://stripe.com/jobs/listing/staff-product-manager-billing/6977801"
+  },
+  "stripe-staff-pm-usage-based-billing-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Usage Based Billing",
+    "company": "Stripe",
+    "url": "https://stripe.com/jobs/listing/staff-product-manager-usage-based-billing/6894642"
+  },
+  "stripe-staff-pm-local-processor-acquiring-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Local Processor Acquiring",
+    "company": "Stripe",
+    "url": "https://stripe.com/jobs/listing/staff-product-manager-local-processor-acquiring/7953691"
   },
   "anthropic-lead-pm-research-sf-25pct": {
     "first_seen": "2026-05-27",
@@ -109,7 +186,14 @@
     "posted": null,
     "title": "Lead Product Manager, Developer Services",
     "company": "Anthropic",
-    "url": "https://startup.jobs/lead-product-manager-developer-services-anthropic-3-7538264"
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5021316008"
+  },
+  "anthropic-lead-pm-claude-code-sf-25pct": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Lead Product Manager, Claude Code",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4791979008"
   },
   "discord-group-pm-machine-learning-remote-stale": {
     "first_seen": "2026-05-27",
@@ -118,12 +202,68 @@
     "company": "Discord",
     "url": "https://remote.com/jobs/discord-c13dzdgc/group-product-manager-machine-learning-j16x3aso"
   },
+  "discord-staff-pm-growth-seo-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Growth & SEO",
+    "company": "Discord",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8348158002"
+  },
+  "discord-staff-pm-commerce-sf-excluded": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Commerce",
+    "company": "Discord",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8432341002"
+  },
+  "discord-staff-pm-payments-sf-excluded": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Payments",
+    "company": "Discord",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8362678002"
+  },
   "netflix-group-pm-payments-los-gatos-excluded": {
     "first_seen": "2026-05-27",
     "posted": "2026-03-12",
     "title": "Group Product Manager, Payments Product Journey",
     "company": "Netflix",
     "url": "https://explore.jobs.netflix.net/careers/job/790314756260-group-product-manager-payments-product-journey-los-gatos-california-united-states-of-america"
+  },
+  "netflix-group-pm-security-platforms-engineering-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Group Product Manager, Security Platforms Engineering",
+    "company": "Netflix",
+    "url": "https://explore.jobs.netflix.net/careers/job/790313768849-group-product-manager-security-platforms-engineering-usa-remote"
+  },
+  "airbnb-staff-pm-ai-personalization-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, AI Personalization",
+    "company": "Airbnb",
+    "url": "https://careers.airbnb.com/positions/7834495/"
+  },
+  "github-staff-pm-developer-experience-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Developer Experience",
+    "company": "GitHub",
+    "url": "https://www.github.careers/careers-home/jobs/5124"
+  },
+  "github-staff-pm-data-experience-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Data Experience",
+    "company": "GitHub",
+    "url": "https://boards.greenhouse.io/github/jobs/5265302"
+  },
+  "github-staff-pm-repository-security-governance-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Repository Security and Governance",
+    "company": "GitHub",
+    "url": "https://remotive.com/remote/jobs/product/staff-product-manager-repository-security-and-governance-4513214"
   },
   "databricks-staff-pm-ai-platform-sf-excluded": {
     "first_seen": "2026-05-27",
@@ -145,5 +285,26 @@
     "title": "Staff Product Manager - Developer Platform",
     "company": "Snowflake",
     "url": "https://careers.snowflake.com/us/en/job/SNCOUSE2C11ACF97014472AF7CD5BC5FB6A791EXTERNALENUS62A5CF4C97FE40D79E1971234DCA930D/Staff-Product-Manager-Developer-Platform"
+  },
+  "cloudflare-senior-director-product-app-performance-austin-excluded": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Senior Director of Product - App Performance",
+    "company": "Cloudflare",
+    "url": "https://job-boards.greenhouse.io/cloudflare/jobs/6951791"
+  },
+  "datadog-director-pm-applied-ai-nyc-excluded": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Director of Product Management - Applied AI",
+    "company": "Datadog",
+    "url": "https://careers.datadoghq.com/detail/7616721/"
+  },
+  "datadog-director-pm-ai-observability-nyc-excluded": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Director, Product Management - AI Observability",
+    "company": "Datadog",
+    "url": "https://careers.datadoghq.com/detail/7798672/"
   }
 }
