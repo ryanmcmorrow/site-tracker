@@ -4,6 +4,25 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-05-27 (Fourth Pass)
+
+### New Roles Found (3)
+- **Stripe Staff PM, Orchestration Lead** (7568296) — confirmed remote USA. Lead Stripe Orchestration, nascent enterprise product. URL: stripe.com/jobs/listing/staff-product-manager-orchestration-lead/7568296. Added to seen_jobs.
+- **Reddit Staff PM, Contributor Experience (Core Experience Team)** (6434425) — confirmed remote USA via Working Nomads. job-boards.greenhouse.io (new URL format). Posted ~Nov 30, 2024, still active May 2026. Added to seen_jobs.
+- **GitHub Staff PM, Copilot Platform** (job 4722) — confirmed remote USA. Multi-model strategy for GitHub Copilot. github.careers/benefits/jobs/4722. Different from job 5124 (Developer Experience). Added to seen_jobs.
+
+### Key Observations
+- Direct ATS API calls (boards-api.greenhouse.io, api.ashbyhq.com, api.lever.co) ALL return HTTP 403. WebSearch fallback is the only viable approach.
+- **Discord Staff PM, Measurement & Signals** (8245255002) — Built In SF + Glassdoor confirm San Francisco location. EXCLUDED. Do not re-report.
+- **Databricks Staff PM, Serverless Workspaces** (8420607002) — Seattle, WA on-site per Levels.fyi. EXCLUDED.
+- **Databricks Staff PM Technical** (8394060002) — Amsterdam, Netherlands. Not US-based. EXCLUDED.
+- **Anthropic Lead PM, Claude Code** (4791979008) — still active in search results. Confirmed in seen_jobs. Also found non-Lead PM roles (Claude Code Platform, Claude Code Enterprise, Consumer, Claude Experiences, Claude Code Growth) — all below Staff/Lead level, excluded.
+- **Reddit Emerging Markets** (5139721) — boards.greenhouse.io OLD URL, no confirmed date, potentially very old (2023/early 2024). Skipped this run; monitor in future runs.
+- **Stripe Orchestration Lead** — ID may appear as both 7568987 and 7568296 in different searches; use 7568296 (from direct stripe.com URL returned in specific search).
+- Snowflake, Microsoft, Meta: no new qualifying roles. Skip detailed search unless criteria change.
+
+---
+
 ## Run: 2026-05-27
 
 ### General Notes

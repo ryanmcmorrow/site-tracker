@@ -97,6 +97,13 @@
     "company": "Reddit",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/6563939"
   },
+  "reddit-staff-pm-contributor-experience-core-experience-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": "2024-11-30",
+    "title": "Staff Product Manager, Contributor Experience (Core Experience Team)",
+    "company": "Reddit",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/6434425"
+  },
   "stripe-staff-pm-dashboard-remote-usa": {
     "first_seen": "2026-05-27",
     "posted": "2026-05-12",
@@ -173,6 +180,27 @@
     "title": "Staff Product Manager, Local Processor Acquiring",
     "company": "Stripe",
     "url": "https://stripe.com/jobs/listing/staff-product-manager-local-processor-acquiring/7953691"
+  },
+  "stripe-staff-pm-compliance-ux-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": "2026-02-01",
+    "title": "Staff Product Manager, Compliance UX",
+    "company": "Stripe",
+    "url": "https://stripe.com/jobs/listing/staff-product-manager-compliance-ux/7573905"
+  },
+  "stripe-staff-pm-agentic-commerce-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Agentic Commerce",
+    "company": "Stripe",
+    "url": "https://stripe.com/jobs/listing/staff-product-manager-agentic-commerce/7303214"
+  },
+  "stripe-staff-pm-orchestration-lead-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Orchestration Lead",
+    "company": "Stripe",
+    "url": "https://stripe.com/jobs/listing/staff-product-manager-orchestration-lead/7568296"
   },
   "anthropic-lead-pm-research-sf-25pct": {
     "first_seen": "2026-05-27",
@@ -265,6 +293,13 @@
     "company": "GitHub",
     "url": "https://remotive.com/remote/jobs/product/staff-product-manager-repository-security-and-governance-4513214"
   },
+  "github-staff-pm-copilot-platform-remote-usa": {
+    "first_seen": "2026-05-27",
+    "posted": null,
+    "title": "Staff Product Manager, Copilot Platform",
+    "company": "GitHub",
+    "url": "https://www.github.careers/benefits/jobs/4722"
+  },
   "databricks-staff-pm-ai-platform-sf-excluded": {
     "first_seen": "2026-05-27",
     "posted": null,
@@ -306,20 +341,6 @@
     "title": "Director, Product Management - AI Observability",
     "company": "Datadog",
     "url": "https://careers.datadoghq.com/detail/7798672/"
-  },
-  "stripe-staff-pm-compliance-ux-remote-usa": {
-    "first_seen": "2026-05-27",
-    "posted": "2026-02-01",
-    "title": "Staff Product Manager, Compliance UX",
-    "company": "Stripe",
-    "url": "https://stripe.com/jobs/listing/staff-product-manager-compliance-ux/7573905"
-  },
-  "stripe-staff-pm-agentic-commerce-remote-usa": {
-    "first_seen": "2026-05-27",
-    "posted": null,
-    "title": "Staff Product Manager, Agentic Commerce",
-    "company": "Stripe",
-    "url": "https://stripe.com/jobs/listing/staff-product-manager-agentic-commerce/7303214"
   },
   "google-group-pm-search-cambridge-ma": {
     "first_seen": "2026-05-27",
