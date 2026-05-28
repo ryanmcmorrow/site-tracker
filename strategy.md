@@ -4,6 +4,30 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-05-28 (Fifth Pass)
+
+### New Roles Found (4)
+- **Reddit Staff PM, Growth — New User Acquisition, Eastern Timezone** (GH 6379485) — Remote USA, EST timezone preferred. Boston-compatible confirmed via Built In Boston listing. job-boards.greenhouse.io/reddit/jobs/6379485.
+- **Google Group PM, Google Cloud** (129173606920790726) — Cambridge, MA listed as a preferred working location option. Confirmed via LinkedIn: "Google hiring...in Cambridge, Massachusetts." 12 years PM experience required. Salary $214K-$305K. google.com/about/careers job page.
+- **Google Lead Group PM, Databases & Analytics, Google Cloud** (97142797563241158) — Cambridge, MA confirmed as preferred working location. Covers database and analytics products. 10 yr PM experience, 5 yr people mgmt required. Salary $227K-$320K.
+- **Google Lead Group PM, Compute, Google Cloud** (106894634206012102) — Cambridge, MA confirmed. Leads compute and control plane for Google Cloud VMware Engine. Was previously "unconfirmed Cambridge" in strategy — now confirmed.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch + aggregator approach remains the only viable path.
+- **Reddit Staff PM, Growth — New User Acquisition, Eastern Timezone** (6379485) is on the new job-boards.greenhouse.io URL style (not old boards.greenhouse.io), confirming it's an active recent posting.
+- **Reddit Staff PM, Core Experience** (5345806) appeared on old boards.greenhouse.io — skip as likely stale.
+- **Discord "Group Product Manager, Core Product"** — startup.jobs elevates title to "Group PM" but Greenhouse actual title is "Product Manager, Core Product" (IDs 8288128002 and 7982515002) — below Staff level. EXCLUDED.
+- **Google Lead Group PM, Streaming Analytics** (82664694870876870) — confirmed locations are Sunnyvale, CA and Kirkland, WA only. NOT Cambridge. EXCLUDED.
+- **Google Lead Group PM, Data Protection, Foundations** (126267683896206022) — primary location appears to be New York, not Cambridge. EXCLUDED.
+- **Google Lead Group PM, Google Workspace** (90710050403689158) — Cambridge location not confirmed. Skip until confirmed.
+- **Stripe** — no new Staff PM roles vs. previous run (all 14 prior roles still appear to be active).
+- **Airbnb** — no new roles; same 4 qualifying + 2 excluded (Payments entity) as before.
+- **Databricks Staff PM** (7649409002) — Amsterdam, Netherlands. EXCLUDED.
+- **OpenAI** — no qualifying remote roles found.
+- Many new Google Group PM / Lead Group PM roles exist on careers.google.com not yet checked for Cambridge: Group PM Lead End-to-End Workflows (123825865283773126), Group PM AI Infra (128346269826327238), Group PM ACI Infrastructure (135370941705134790), Group PM Cloud Foundations (130411359358591686), Lead Group PM Generative AI Cloud (82540556760031942), Lead Group PM YouTube Trust & Safety (124252434120745670). Check in future runs.
+
+---
+
 ## Run: 2026-05-27 (Fourth Pass)
 
 ### New Roles Found (3)
@@ -111,15 +135,20 @@ Accumulated learnings from each run to search smarter over time.
 ## Google
 
 - 137 Google PM jobs listed in "Boston" area on LinkedIn but this likely includes candidates in Boston applying to Google, not roles based in Boston.
-- Google Cambridge, MA office exists and **multiple Group PM roles list Cambridge, MA as a preferred working location option**.
+- Google Cambridge, MA office exists and **multiple Group PM / Lead Group PM roles list Cambridge, MA as a preferred working location option**.
 - Google requires 3 days/week in-office (hybrid). Cambridge, MA office = Boston area = QUALIFIES.
-- **Confirmed qualifying roles (run 3)**:
-  - Group PM, Search (job 81599409300611782) — "Mountain View, CA or Cambridge, MA" — ACTIVE, salary $240K-$334K
+- **Confirmed qualifying roles (runs 3–5)**:
+  - Group PM, Search (81599409300611782) — "Mountain View, CA or Cambridge, MA" — ACTIVE, salary $240K-$334K (run 3)
+  - Group PM, Google Cloud (129173606920790726) — Cambridge, MA confirmed — salary $214K-$305K (run 5)
+  - Lead Group PM, Databases & Analytics, Google Cloud (97142797563241158) — Cambridge, MA confirmed — salary $227K-$320K (run 5)
+  - Lead Group PM, Compute, Google Cloud (106894634206012102) — Cambridge, MA confirmed (run 5; was unconfirmed in run 3)
 - **NOT Cambridge**: Group PM, Complex Journeys, Search — New York, NY or Mountain View, CA (not Cambridge)
-- Also found with possible Cambridge listing but unconfirmed: Lead Group PM, Compute, Google Cloud (106894634206012102), Group PM, Google Cloud (129173606920790726)
+- **NOT Cambridge**: Lead Group PM, Streaming Analytics (82664694870876870) — Sunnyvale, CA and Kirkland, WA only
+- **NOT confirmed**: Lead Group PM, Data Protection, Foundations (126267683896206022) — appears NY-based
+- **Not yet checked**: Group PM Lead, End-to-End Workflows (123825865283773126); Group PM AI Infra (128346269826327238); Group PM ACI Infrastructure (135370941705134790); Group PM Cloud Foundations (130411359358591686); Lead Group PM Generative AI Cloud (82540556760031942); Lead Group PM Google Workspace (90710050403689158)
 - google.com/about/careers returns HTTP 403 to WebFetch. Use WebSearch with site:google.com/about/careers.
-- Future runs: search `Google "Group Product Manager" "Cambridge, MA" 2026 site:google.com/about/careers` to find new Cambridge-eligible roles. Also check `site:careers.google.com "Cambridge" "Group Product Manager"`.
-- Note: Google job IDs are very long (18-digit numbers). Track with slug "google-group-pm-[title]-cambridge-ma".
+- Future runs: search `Google "Group Product Manager" "Cambridge, MA" 2026 site:google.com/about/careers` to find new Cambridge-eligible roles. Also check `site:careers.google.com "Cambridge" "Group Product Manager"`. Check the unverified roles listed above.
+- Note: Google job IDs are very long (18-digit numbers). Track with slug "google-[level]-[title]-cambridge-ma".
 
 ## Netflix
 
