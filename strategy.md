@@ -4,6 +4,39 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-05-28 (Sixth Pass)
+
+### New Roles Found (0)
+No new qualifying roles found this run. All targets searched comprehensively.
+
+### Key Observations
+- Direct ATS API calls (greenhouse, ashby, lever) still return HTTP 403. WebSearch is the only viable approach.
+- **Google Group PM, Cloud Infrastructure (139956858675700422)**: Contradictory location signals — one search result confirmed "Cambridge, MA, USA" as an in-office location option, but a subsequent search showed only Seattle/Kirkland/Sunnyvale as primary locations. Mark as UNCONFIRMED. Investigate again in next run with a direct targeted search.
+- **Airbnb Staff Platform Manager, Risk**: Appeared on ZipRecruiter (jid=56afc7ed00e6fb7d) with "Payments Risk and Compliance domain" description and "Airbnb, Inc." entity (not Airbnb Payments, Inc.) — which would make MA eligible. However, the role does NOT appear anywhere on careers.airbnb.com current listings. Likely stale or recently filled. Do not report.
+- **Airbnb "Staff Platform Manager, Agent Tools" (7278383)**: Actual title on careers.airbnb.com is "**SENIOR** Platform Manager, Agent Tools" — below Staff level. EXCLUDED. Job aggregator title inflation confirmed again.
+- **Reddit old-URL roles** (boards.greenhouse.io, IDs in 5XXXXXX range): Content Discovery (5327220), Community Success (5704046), Senior Group PM Content Operations (5888263, posted May 22, 2025, salary $232K-$326K, remote USA). All on old URL format — strategy is to skip these as likely stale, consistent with prior runs. Exception: if any of these appear on new-style job-boards.greenhouse.io URLs in future, report immediately.
+- **Google GenAI roles**: Group PM Generative AI Cloud (95559979171226310) — locations confirmed as Kirkland/Boulder/New York/Sunnyvale, NOT Cambridge. Lead Group PM Generative AI Cloud (78154020291519174, 82540556760031942) — Kirkland, WA. Lead Group PM Generative AI Cloud (82540556760031942) also confirmed Kirkland. All excluded.
+- **Google Lead Group PM, Hiring and Onboarding Products (125455634429551302)**: Confirmed locations are New York, Austin, Sunnyvale — NOT Cambridge. EXCLUDED.
+- **Netflix**: Group PM, Partner Enablement (790304497342) — Los Gatos, CA. EXCLUDED. Security Platforms Engineering (790313768849) remains the only qualifying Netflix remote role (already in seen_jobs).
+- **Stripe**: All 14 existing roles still active; no new Staff PM roles in this run.
+- **Airbnb**: No new qualifying Staff PM/Platform Manager roles beyond the 5 already in seen_jobs.
+- **Discord**: No new qualifying remote roles. Same 5 roles as before (Growth & SEO qualifying; Commerce/Payments/Measurement & Signals SF-excluded; ML stale).
+- **GitHub**: No new roles beyond the 4 already in seen_jobs.
+- **Databricks/Snowflake/Microsoft**: No qualifying remote or Boston-area roles.
+- **OpenAI**: No qualifying roles. Low priority — skip in future unless searching for Ashby-based leads.
+- **Meta**: No confirmed Boston-compatible Director PM roles. 3-5 day in-office policy still a blocker.
+- **Cloudflare**: Only stale Fraud role (5714442) still indexed. No new qualifying roles.
+- **Datadog**: All Director PM roles NYC hybrid. No new qualifying roles.
+
+### Unresolved for Next Run
+- **Google Group PM, Cloud Infrastructure (139956858675700422)** — confirm or deny Cambridge location definitively. Try query: `"Group Product Manager, Cloud Infrastructure" "139956858675700422" "Cambridge" site:linkedin.com` or check directly on Glassdoor.
+- **Reddit Senior Group PM, Content Operations (5888263)** — posted May 22, 2025; remote USA; $232K-$326K. Check in future run if it migrates to new-format URL (job-boards.greenhouse.io).
+- **Google Lead Group PM, Cloud SQL (128034244210369222)**: Not confirmed Cambridge — check in next run.
+- **Google Lead Group PM, Cloud Intelligent Support (114896145276117702)**: Not confirmed Cambridge — check in next run.
+- **Google Lead Group PM, Google Cloud (87892809041748678)**: New role not previously seen. Check for Cambridge location in next run.
+
+---
+
 ## Run: 2026-05-28 (Fifth Pass)
 
 ### New Roles Found (4)
