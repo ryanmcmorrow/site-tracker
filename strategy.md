@@ -4,6 +4,50 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-05-29 (Seventh Pass)
+
+### New Roles Found (3)
+- **Reddit Staff PM, App Ads** (GH 6191322) — Remote US, new-format job-boards.greenhouse.io URL confirms active. Ads team role. Added to seen_jobs.
+- **Reddit Staff PM, Ad Campaign Recommendations and Opti-Score** (GH 7160559) — Remote US. Recommendations team building automated ad products. Added to seen_jobs.
+- **Reddit Staff PM, SMB (Ads)** (GH 7216493) — Remote US, posted Sep 3, 2025 (older posting but still active on new-format URL). SMB activation focus. Added to seen_jobs.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Google roles — extensive Cambridge verification done, all excluded**:
+  - Group PM, Cloud Infrastructure (139956858675700422) — CONFIRMED NOT Cambridge: Seattle/Kirkland/Sunnyvale only. Close this unresolved item.
+  - Lead Group PM, Cloud SQL (128034244210369222) — CONFIRMED NOT Cambridge: Sunnyvale/Kirkland only. Close this unresolved item.
+  - Lead Group PM, Cloud Intelligent Support (114896145276117702) — CONFIRMED NOT US: Bengaluru/New Taipei. Close this unresolved item.
+  - Lead Group PM, Google Cloud (87892809041748678) — CONFIRMED NOT Cambridge: Chicago/Atlanta/other US cities. Close this unresolved item.
+  - Lead Group PM, E-Commerce (117752687608373958) — CONFIRMED NOT Cambridge: Mountain View/New York only.
+  - Lead Group PM, Ads (140448731299226310) — CONFIRMED NOT Cambridge: Mountain View/New York/Kirkland only.
+  - Group PM, ACI Infrastructure (135370941705134790) — CONFIRMED NOT Cambridge: Sunnyvale/Kirkland/Seattle.
+  - Lead Group PM, Marketing Technology Platform (131478676985258694) — NOT confirmed Cambridge; no evidence. Skip.
+  - Lead Group PM, Identity and Access Management (118918310208119494) — CONFIRMED NOT Cambridge: Austin/Atlanta/Bengaluru.
+  - Lead Group PM, Google Cloud Security Operations (90995269272773318) — CONFIRMED NOT Cambridge: Bengaluru/Mountain View/Atlanta.
+- **Google Cambridge pattern emerging**: The only consistent Cambridge roles are in the Google Cloud Databases/Analytics/Compute cluster. Non-Cloud roles (Ads, E-Commerce, Marketing Tech) and infrastructure roles (Cloud SQL, ACI, Cloud Infrastructure) consistently do NOT have Cambridge. In future runs, prioritize checking Cloud platform/developer-facing roles for Cambridge.
+- **New unchecked Google roles found** (check in next run):
+  - Group PM Lead, End-to-End Workflows, Google Cloud (123825865283773126)
+  - Group PM, Cloud Foundations (130411359358591686)
+  - Group PM, AI Infra (128346269826327238)
+  - Group PM, Compute, Google Cloud (101292167363732166)
+  - Group PM, Cloud Storage (133709833038635718)
+  - Group PM, Security & Privacy, Google Cloud (123203964807062214)
+  - Lead Group PM, Android Youth Experiences (129811675892064966) — unlikely Cambridge, Android team
+- **Reddit**: 3 new Staff PM roles found on new-format URLs. Reddit consistently posts 15-20 open Staff PM roles. The Ads domain is a hot area (App Ads, Ad Campaign Recommendations, SMB, Ads API, Ads Business Manager, Ads Marketplace, etc.). Continue checking for new IDs each run.
+- **Stripe**: No new roles vs. prior run. All 13 known roles still appear active.
+- **Anthropic**: No new Lead PM roles. Lead PM Research (4933813008) and Lead PM Developer Services (5021316008) remain the qualifying two. Claude Code role may have been closed or re-posted — verify in next run (Lead PM Claude Code GH 4791979008).
+- **Discord**: Group Product Marketing Manager, Developer Commerce Solutions (8338009002) — partially remote US — but this is a Product MARKETING Manager role (not Product Manager). Title does not match criteria. EXCLUDED.
+- **Netflix**: Security Platforms Engineering (790313768849) remains only qualifying remote role. No new remote Group PM roles found.
+- **Airbnb**: No new roles. All 5 qualifying roles still appear active. Two Payments-entity roles (Business Host Payouts 7747440, Payments/Evaluations 7674658) remain excluded for MA.
+- **GitHub**: No new roles beyond the 4 in seen_jobs.
+- **Databricks/Snowflake/Datadog/Cloudflare/Meta/OpenAI**: No new qualifying roles.
+
+### Unresolved for Next Run
+- **Anthropic Lead PM, Claude Code** (4791979008) — verify still active; didn't appear in this run's search.
+- **Google Cloud PM cluster** — check the 6 new Group PM/Lead Group PM roles listed above for Cambridge location.
+
+---
+
 ## Run: 2026-05-28 (Sixth Pass)
 
 ### New Roles Found (0)
