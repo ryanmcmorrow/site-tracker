@@ -4,6 +4,36 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-05-30 (Eighth Pass)
+
+### New Roles Found (1)
+- **Google Group Product Manager, Complex Journeys, Search** (72164420028900038) — Cambridge, MA, USA + New York, NY, USA + Bengaluru. Confirmed via search: "available in New York, NY, USA; Cambridge, MA, USA; and Bengaluru, Karnataka, India." Gen AI Search experience role (AI Overviews, AI Mode). Added to seen_jobs.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Anthropic Lead PM, Claude Code** (4791979008) — CONFIRMED still active. All 3 Anthropic Lead PM roles still open (Research 4684257008, Developer Services 5021316008, Claude Code 4791979008).
+- **Google new roles checked and excluded**:
+  - Group PM, AI Infra (128346269826327238) — Gurugram/Hyderabad/Chicago/Atlanta, NOT Cambridge. EXCLUDED.
+  - Group PM, Cloud Foundations (130411359358591686) — Mumbai/Bengaluru/San Francisco, NOT Cambridge. EXCLUDED.
+  - Group PM, Compute (101292167363732166) — Mumbai/Gurgaon/New York/Sunnyvale, NOT Cambridge. EXCLUDED.
+  - Group PM, Cloud Storage (133709833038635718) — Sunnyvale/Seattle focus, NOT confirmed Cambridge. EXCLUDED.
+  - Group PM, Security & Privacy, Google Cloud (123203964807062214) — Goleta/LA/Austin/Atlanta, NOT Cambridge. EXCLUDED.
+  - Group PM, Databases & Analytics (115912268369011398) — Austin/Ann Arbor/Mountain View, NOT Cambridge. EXCLUDED.
+  - Group PM Lead, End-to-End Workflows (123825865283773126) — Sunnyvale, CA per search result. NOT Cambridge. EXCLUDED.
+- **Google Complex Journeys, Search** (72164420028900038) — Cambridge confirmed. This is a GenAI-focused Search role covering AI Overviews and AI Mode. Salary expected $240K-$334K range (same tier as Group PM Search).
+- **Google pattern update**: Cloud infrastructure/platform roles (Databases, Compute, Storage, Security) DO NOT consistently include Cambridge — only specific roles in the cluster do. Cambridge-confirmed roles so far: Search (81599409300611782), Google Cloud (129173606920790726), Lead Group PM Databases & Analytics (97142797563241158), Lead Group PM Compute (106894634206012102), Complex Journeys Search (72164420028900038).
+- **Airbnb**: Staff Platform Manager, Agent Products and Intelligence Platforms (7525175) did NOT appear in this run's search results — may have been filled. Keep in seen_jobs but note possible closure.
+- **Datadog Director PM - Service Management** (4701805) — LinkedIn confirms New York, NY. Hybrid NY role, NOT Boston-compatible. EXCLUDED.
+- **Datadog Director, PM** (6842636) — NY-based (appears on Built In NYC). NOT qualifying.
+- **Reddit, Stripe, Discord, Netflix, GitHub, OpenAI, Meta, Cloudflare, Databricks, Snowflake**: No new qualifying roles found in this run.
+
+### Unresolved for Next Run
+- **Google Lead Group PM, Vertex AI Platform** (LinkedIn 4224661315) — new role appeared in search. Check for Cambridge location.
+- **Google Lead Group PM, Generative AI, Google Cloud** (LinkedIn 4227676920) — new role appeared in search. Check for Cambridge location.
+- **Airbnb Staff Platform Manager, Agent Products and Intelligence Platforms** (7525175) — verify still active or closed.
+
+---
+
 ## Run: 2026-05-29 (Seventh Pass)
 
 ### New Roles Found (3)
