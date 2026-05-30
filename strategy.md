@@ -4,6 +4,37 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-05-30 (Ninth Pass)
+
+### New Roles Found (2)
+- **GitHub Principal Product Manager, Agent Platform** (job 5140) — Remote USA confirmed via github.careers, Glassdoor, LinkedIn (4387757593), and nodesk.co. Role owns product vision for GitHub's Agent Platform including agent memory, context, code search and code understanding. Salary up to $425K. URL: github.careers/careers-home/jobs/5140.
+- **GitHub Principal Product Manager** (job 4884) — Remote USA confirmed via github.careers and nodesk.co. Specific team focus not confirmed (Glassdoor snippet suggests Security Products, salary $160,200-$425,000). URL: github.careers/careers-home/jobs/4884. Title added as generic "Principal Product Manager" until team is confirmed.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Airbnb Staff Platform Manager, Agent Products and Intelligence Platforms** (7525175) — confirmed NOT appearing in careers.airbnb.com search results this run. Likely filled/closed. Role remains in seen_jobs for reference but is inactive.
+- **Google new roles checked and excluded**:
+  - Group PM, 0-1 AI Products, Google Labs (107478161364525766) — Mountain View, Chicago, NY; NOT Cambridge. EXCLUDED.
+  - Lead Group PM, Vertex AI Platform (89979423809249990) — Thornton CO, Addison TX, Mountain View CA; NOT Cambridge. EXCLUDED. (Resolves LinkedIn 4224661315 unresolved item.)
+  - Lead Group PM, AI Frameworks (138826610181579462) — Goleta CA, LA, Bengaluru; NOT Cambridge. EXCLUDED.
+  - Lead Group PM, AI Personalization, Data Infrastructure (88467639143146182) — Mountain View/NY; NOT confirmed Cambridge. EXCLUDED.
+  - Group PM, Generative AI, Google Cloud AI (107168667162026694) — Mexico City, Sunnyvale, NY; NOT Cambridge. EXCLUDED.
+  - Group PM, Google Labs (105016145450279622) — Cedar Rapids, Sunnyvale, Austin; NOT Cambridge. EXCLUDED.
+  - Lead Group PM, Generative AI, Google Cloud (96752926604567238) — Kirkland, WA per Glassdoor and outscal.com. NOT Cambridge. EXCLUDED. (Resolves LinkedIn 4227676920 unresolved item.)
+- **GitHub**: Two new Principal PM roles (5140 Agent Platform, 4884 unspecified). GitHub now has 6 tracked qualifying roles. "Staff PM, Actions" appeared on startup.jobs but no github.careers ID found — discarded per "when in doubt discard" rule.
+- **Reddit**: All 18 known roles still active. No new IDs found.
+- **Stripe**: All 13 known roles still appearing. Orchestration Lead now shows ID 7568987 on stripe.com (vs 7568296 in seen_jobs) — per prior strategy note these are the same role; do not re-report.
+- **Anthropic**: Same 3 Lead PM roles still active (Research 4684257008, Developer Services 5021316008, Claude Code 4791979008).
+- **Discord, Netflix, Databricks, Snowflake, Datadog, Cloudflare, OpenAI, Meta, Microsoft**: No new qualifying roles.
+- **Databricks Staff PM, Security** (7110509002) — Built In Seattle confirms Seattle, WA. EXCLUDED.
+
+### Unresolved for Next Run
+- **GitHub Principal PM** (job 4884) — confirm specific team/title if possible (possibly Security Products per Glassdoor snippet).
+- **GitHub Staff PM, Actions** — startup.jobs reference only; no github.careers ID confirmed. Check again in next run; if github.careers URL emerges, report immediately.
+- **Google Cambridge pattern**: Only the 5 previously confirmed roles remain active. No new Cambridge-eligible roles found this run. In future runs, focus on Cloud-adjacent developer/infrastructure roles for Cambridge.
+
+---
+
 ## Run: 2026-05-30 (Eighth Pass)
 
 ### New Roles Found (1)
