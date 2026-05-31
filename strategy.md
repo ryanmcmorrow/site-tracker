@@ -4,6 +4,37 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-05-31 (Tenth Pass)
+
+### New Roles Found (1)
+- **Reddit Principal Product Manager, Ads Manager (Monetization)** (GH 6762983) — Remote US confirmed via job-boards.greenhouse.io (new-format URL), remoterocketship.com ("United States"), Working Nomads, The Ladders. Salary $232,500–$322,500 + equity. Leads Ads Manager product for self-serve advertising clients. Added to seen_jobs.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Reddit**: "Principal Product Manager - Ads Manager (Monetization)" (6762983) was previously categorized as non-Staff by title inspection but the role's Greenhouse page clearly shows it on the new job-boards.greenhouse.io URL format with "Principal PM" as title — which is one of the qualifying seniority titles per criteria. Confirmed remote USA. New role, added.
+- **Reddit** now has 19 tracked qualifying roles. No other new Reddit IDs found this run.
+- **Stripe**: All 13 known roles confirmed still active (Dashboard 7913702, Apps 7550590, Enterprise 7812856, Support Experience 7920219, Web Presence 7169955, Seller Experience 7191708, Billing 6977801, Payments 7819059, Compliance UX 7573905, Usage Based Billing 6894642, Terminal 7301942, Agentic Commerce 7303214, Orchestration Lead 7568296/7568987). No new roles.
+- **Anthropic**: All 3 Lead PM roles confirmed still active (Research 4684257008, Developer Services 5021316008, Claude Code 4791979008).
+- **Discord**: Same 5 known roles; Growth & SEO (8348158002) remains the only qualifying remote role.
+- **Netflix**: Security Platforms Engineering (790313768849) confirmed still active.
+- **Airbnb**: All 5 qualifying roles still active including Agent Products (7525175). Note: ZipRecruiter showed a "Staff Platform Manager: AI for Agent Products - San Francisco" result — possibly a different entity or stale cache; the official careers.airbnb.com/positions/7525175/ confirms US Remote Eligible.
+- **GitHub**: 3 known roles confirmed (Principal PM Agent Platform 5140, Principal PM 4884, Staff PM Copilot Platform 4722). Staff PM Repository Security & Governance confirmed still indexed on remotive.com (April 28, 2026). Staff PM Data Experience (5265302) not re-confirmed this run but no evidence of closure.
+- **Google new roles checked and excluded this run**:
+  - Group Outbound Product Manager, Google Cloud (104872294362292934) — Cambridge, MA IS a confirmed location option, BUT "Outbound PM" is a distinct track at Google (go-to-market/field enablement, not core product development). Does NOT match "Group Product Manager" criteria. EXCLUDED. Do not report as Group PM equivalent.
+  - Lead Group Product Manager, Google Cloud (132698001047986886) — Sunnyvale, CA / Austin, TX / Mountain View, CA confirmed. NOT Cambridge. EXCLUDED.
+  - Group Product Manager, Agentic Search (96242423838974662) — New York, NY confirmed (ZipRecruiter, LinkedIn, experteer.co.uk). NOT Cambridge. EXCLUDED.
+  - Group Product Manager, Google Distributed Cloud Agentic Workloads (89132078100030150) — Sunnyvale, CA confirmed (BeBee). NOT Cambridge. EXCLUDED.
+- **Caution on AI summary hallucination**: Multiple Google searches returned AI summaries claiming Cambridge, MA for roles that prior runs CONFIRMED are NOT Cambridge (Lead Group PM Ads, Lead Group PM E-Commerce, Lead Group PM Streaming Analytics, Lead Group PM Hiring & Onboarding). Do NOT trust AI summaries for location claims — always verify from actual aggregator snippets (ZipRecruiter, The Ladders, LinkedIn, Glassdoor).
+- **Databricks, Snowflake, Datadog, OpenAI, Meta, Microsoft, Cloudflare**: No new qualifying roles. All same as prior run.
+- **Google Cambridge pattern**: The 5 previously confirmed roles remain the only active qualifying Cambridge roles: Group PM Search (81599409300611782), Group PM Google Cloud (129173606920790726), Lead Group PM Databases & Analytics (97142797563241158), Lead Group PM Compute (106894634206012102), Group PM Complex Journeys Search (72164420028900038). No new additions this run.
+
+### Unresolved for Next Run
+- **GitHub Principal PM** (job 4884) — team still not confirmed. Prior strategy note: Glassdoor snippet suggests Security Products. Check again next run.
+- **GitHub Staff PM, Actions** — still no github.careers URL confirmed. Check again if new run surfaces one.
+- **Google Group Outbound PM** (104872294362292934) — Cambridge confirmed as location, but EXCLUDED because "Outbound PM" is a separate career ladder. Decision is final unless criteria expand to include outbound/GTM PMs.
+
+---
+
 ## Run: 2026-05-30 (Ninth Pass)
 
 ### New Roles Found (2)
