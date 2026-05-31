@@ -4,6 +4,24 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-05-31 (Eleventh Pass)
+
+### New Roles Found (1)
+- **Reddit Staff Product Manager, Ads Targeting (Auto Targeting & Core 1P)** (GH 6486242) — Remote US confirmed via job-boards.greenhouse.io (new-format URL). Role leads Auto Targeting and Core 1P Targeting (Keywords, Communities, Interests) on Reddit's Ads team. Added to seen_jobs.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Reddit**: GH 6486242 surfaced via remoterocketship.com snippet ("Staff Product Manager - Ads Targeting") then confirmed with direct Greenhouse URL on new-format job-boards.greenhouse.io. Remote USA confirmed.
+- Reddit now has 20 tracked qualifying roles.
+- **All other companies**: No new qualifying roles found vs. prior run. Stripe (13), Anthropic (3), Discord (1 qualifying), Netflix (1), Airbnb (5), GitHub (6), Google Cambridge (5), Databricks (0), Datadog (0), OpenAI (0), Meta (0), Snowflake (0), Cloudflare (stale only) — all unchanged.
+- **Airbnb Staff Platform Manager, Agent Products and Intelligence Platforms** (7525175) — confirmed still active on careers.airbnb.com in this run.
+
+### Unresolved for Next Run
+- **GitHub Principal PM** (job 4884) — specific team still not confirmed. Prior note: Glassdoor suggests Security Products.
+- **Google Group Outbound PM** (104872294362292934) — Cambridge confirmed but excluded (Outbound/GTM track). Decision is final.
+
+---
+
 ## Run: 2026-05-31 (Tenth Pass)
 
 ### New Roles Found (1)
