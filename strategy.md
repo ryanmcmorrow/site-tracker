@@ -4,6 +4,31 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-06-01 (Twelfth Pass)
+
+### New Roles Found (1)
+- **GitHub Director, Product Management** (job 4763) — Remote USA (or onsite SF/Bellevue/Raleigh). Team focus: GitHub Enterprise Server (GHES). Confirmed via github.careers/benefits/jobs/4763, LinkedIn (4083215961), and startup.jobs aggregator snippet ("Director, Product Management - GitHub Enterprise Server"). Added to seen_jobs.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **GitHub**: Director PM (job 4763) is a genuinely new qualifying role at Director seniority level. GitHub now has 7 tracked qualifying roles. GitHub also shows a Staff Product Manager, Developer Experience (job 5124) and Principal PM, Agent Platform (5140) still active.
+- **GitHub Staff PM, GitHub API Strategy** — appeared in one search result snippet but NO github.careers job ID found. Discarded per "when in doubt discard" rule until a direct URL is confirmed.
+- **Reddit**: All 20 known qualifying roles still active on job-boards.greenhouse.io. No new IDs found. Also found job 6596528 "Staff Product Manager for Finance Applications" — this is a re-post/second req for the same Finance Applications title already tracked as 7803856. NOT reported as new (tracked by title+company slug).
+- **Airbnb**: 5 qualifying roles confirmed active (7451574, 7834495, 7740258, 7445911, 7525175). Agent Products (7525175) still appears on careers.airbnb.com when searched directly — still in seen_jobs. Airbnb Payments entity roles (7747440, 7674658) confirmed excluded for MA.
+- **Stripe**: All 13 known roles still active. No new IDs found.
+- **Anthropic**: All 3 Lead PM roles still active (Research 4933813008/4684257008 re-post, Developer Services 5021316008, Claude Code 4791979008). No new roles.
+- **Discord**: Growth & SEO (8348158002) still active. Commerce (8432341002) and Payments (8362678002) confirmed SF-excluded.
+- **Netflix**: Security Platforms Engineering (790313768849) confirmed still active. No new remote roles.
+- **Google Cambridge**: All 5 known roles still showing (Search 81599409300611782, Google Cloud 129173606920790726, Lead Group PM Databases & Analytics 97142797563241158, Lead Group PM Compute 106894634206012102, Complex Journeys Search 72164420028900038). No new Cambridge roles confirmed. Lead Group PM Ads (140448731299226310) appeared in AI summary as "Cambridge" — per strategy, DO NOT trust AI summaries; this was CONFIRMED NOT Cambridge in run 7.
+- **Databricks, Snowflake, Datadog, OpenAI, Meta, Cloudflare**: No changes. All still SF/NYC/non-Boston.
+
+### Unresolved for Next Run
+- **GitHub Principal PM** (job 4884) — team still not confirmed.
+- **GitHub Director PM** (job 4763) — team confirmed as GHES. Verify still active next run.
+- **Airbnb Agent Products** (7525175) — still showing via direct search on careers.airbnb.com but NOT appearing in Airbnb careers search results. May be nearly closed. Monitor.
+
+---
+
 ## Run: 2026-05-31 (Eleventh Pass)
 
 ### New Roles Found (1)

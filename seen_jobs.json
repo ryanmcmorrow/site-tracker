@@ -396,7 +396,7 @@
     "posted": null,
     "title": "Group Product Manager, Google Cloud",
     "company": "Google",
-    "url": "https://www.google.com/about/careers/applications/jobs/results/129173606920790726-group-product-manager-google-cloud/"
+    "url": "https://www.google.com/about/careers/applications/jobs/results/129173606920790726-group-product-manager/"
   },
   "google-lead-group-pm-databases-analytics-google-cloud-cambridge-ma": {
     "first_seen": "2026-05-28",
@@ -467,5 +467,12 @@
     "title": "Staff Product Manager, Ads Targeting (Auto Targeting & Core 1P)",
     "company": "Reddit",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/6486242"
+  },
+  "github-director-pm-4763-remote-usa": {
+    "first_seen": "2026-06-01",
+    "posted": null,
+    "title": "Director, Product Management",
+    "company": "GitHub",
+    "url": "https://www.github.careers/benefits/jobs/4763"
   }
 }
