@@ -4,6 +4,46 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-06-01 (Fourteenth Pass)
+
+### New Roles Found (0)
+No new qualifying roles found this run.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Reddit**: All 20 known qualifying roles confirmed active. No new IDs surfaced despite exhaustive exclusion queries.
+- **Stripe**: All 13 known roles confirmed active. Agentic Commerce (7303214), Usage Based Billing (6894642), and Seller Experience (7191708) all re-confirmed with direct stripe.com snippets.
+- **Anthropic**: All 3 Lead PM roles confirmed active (Research 4933813008/4684257008, Developer Services 5021316008, Claude Code 4791979008).
+- **Discord**: Growth & SEO (8348158002) confirmed active. No new qualifying roles.
+- **Netflix**: Security Platforms Engineering (790313768849) confirmed active as of June 1, 2026. No new remote roles.
+- **Airbnb**: Agent Products and Intelligence Platforms (7525175) CONFIRMED still active — careers.airbnb.com/positions/7525175/ appeared directly in search results. All 5 qualifying roles still open.
+- **GitHub**: All 7 known roles confirmed active:
+  - Director PM (4763): confirmed at github.careers/careers-home/jobs/4763 (note: also accessible as /benefits/jobs/4763 — seen_jobs has /benefits/ URL, both valid)
+  - Staff PM Developer Experience (5124): confirmed at github.careers/careers-home/jobs/5124
+  - Staff PM Copilot Platform (4722): confirmed at github.careers/benefits/jobs/4722
+  - Staff PM Data Experience (5265302): confirmed on boards.greenhouse.io/github/jobs/5265302
+  - Principal PM Agent Platform (5140): confirmed at github.careers/careers-home/jobs/5140
+  - Principal PM (4884): confirmed at github.careers/careers-home/jobs/4884
+  - Staff PM Repository Security & Governance: confirmed on remotive.com
+  - Job 4402 (github.careers/careers-home/jobs/4402): Still no team focus confirmed. Copilot RAI & Safety (startup.jobs/4445258) and Actions (startup.jobs/3433739) both appeared again — neither has a confirmed github.careers URL. NOT added per rule.
+- **Google Cambridge**: All 5 known roles still showing. New roles checked and excluded this run:
+  - Lead Group PM Workspace (108135073250714310): Sunnyvale/SF/Bengaluru/Mumbai confirmed — NOT Cambridge. EXCLUDED.
+  - Group PM Search, Sports, and Language (118107860249780934): San Bruno/Mountain View/SF confirmed — NOT Cambridge. EXCLUDED.
+  - Lead Group PM Search (84785581145367238): Bengaluru/Sunnyvale/Kirkland re-confirmed — NOT Cambridge. EXCLUDED.
+  - Group PM Search Platforms (90891607418512070): Bengaluru/Hyderabad/Mountain View — NOT Cambridge. EXCLUDED.
+  - Group PM (96530107411112646): Cambridge not confirmed from any aggregator snippet. Title unknown. SKIP until confirmed.
+- **Cloudflare VP PM Cloudflare One** (7630417): Location still unconfirmed. No new evidence this run. Leave as unresolved.
+- **Databricks, Snowflake, Datadog, OpenAI, Meta, Microsoft**: No changes. All still SF/NYC/non-Boston.
+
+### Unresolved for Next Run
+- **GitHub job 4402** (github.careers/careers-home/jobs/4402): Team focus unknown — may be repost of 4722 (Copilot Platform). Find team description before adding.
+- **GitHub Staff PM, Copilot RAI & Safety** (startup.jobs/4445258): Still no confirmed github.careers URL. Find github.careers ID before reporting.
+- **GitHub Staff PM, Actions** (startup.jobs/3433739): Still no confirmed github.careers URL. Find before reporting.
+- **Google Group PM** (96530107411112646): Title and Cambridge status unconfirmed. Verify via LinkedIn or Glassdoor snippet.
+- **Cloudflare VP PM, Cloudflare One** (7630417): Confirm location. If remote/Boston-compatible, qualifies on seniority.
+
+---
+
 ## Run: 2026-06-01 (Thirteenth Pass)
 
 ### New Roles Found (0)
