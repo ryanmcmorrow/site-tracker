@@ -4,6 +4,54 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-06-01 (Thirteenth Pass)
+
+### New Roles Found (0)
+No new qualifying roles found this run.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Reddit**: All 20 known qualifying roles confirmed active. "Staff PM for Finance Applications" (6596528) appeared on job-boards.greenhouse.io — confirmed repost of 7803856, same title slug, NOT added.
+- **Stripe**: All 13 known roles confirmed active. "Staff PM, Link Balance" (7118153) appeared again — confirmed excluded (office-assigned). No new IDs found.
+- **Anthropic**: All 3 Lead PM roles confirmed active (Research 4684257008, Developer Services 5021316008, Claude Code 4791979008).
+- **Discord**: Growth & SEO (8348158002) confirmed active. Group PM ML (7675546002) appeared — confirmed SF-based/stale, excluded.
+- **Netflix**: Security Platforms Engineering (790313768849) confirmed active.
+- **Airbnb**: All 5 qualifying roles confirmed active, including Agent Products (7525175) — confirmed live on careers.airbnb.com/positions/7525175/. Payments-excluded roles (7747440, 7674658) still showing.
+- **GitHub**: All 7 known roles confirmed active:
+  - Director PM (4763): confirmed active via github.careers/benefits/jobs/4763
+  - Staff PM Developer Experience (5124): confirmed active via github.careers/careers-home/jobs/5124
+  - Staff PM Copilot Platform (4722): confirmed active (also appears as githubtalentcommunity.careers/benefits/jobs/4722)
+  - Staff PM Repository Security & Governance: confirmed active on remotive.com (April 2026 post)
+  - Staff PM Data Experience (5265302): confirmed active
+  - Principal PM Agent Platform (5140): confirmed active
+  - Principal PM (4884): confirmed active
+  - NEW URL found: github.careers/careers-home/jobs/4402 — "Staff Product Manager" (generic title on github.careers page). Description suggests Copilot Platform focus (possible repost of 4722). NOT added — team unclear, possibly same role as 4722.
+  - NEW description found: "Staff Product Manager, API Strategy" at GitHub — role defines GitHub API evolution for agentic workflows. Confirmed on Simply Hired (posted Nov 23, 2025) and Glassdoor (jl=1009947313991). NO confirmed github.careers URL found. Per strategy: NOT added.
+- **Google Cambridge**: All 5 known Cambridge roles still showing. New roles verified and excluded:
+  - Lead Group PM, Search (84785581145367238): Bengaluru/Sunnyvale/Kirkland — NOT Cambridge, EXCLUDED
+  - Lead Group PM, Ads (126169895426499270): Bengaluru — NOT Cambridge, EXCLUDED
+  - Lead Group PM, Data Protection, Foundations (126267683896206022): New York/Sunnyvale — NOT Cambridge, EXCLUDED
+  - Lead Group PM, Vertical Ads Platform (124903026220507846): San Bruno, CA — NOT Cambridge, EXCLUDED
+  - Lead Group PM, Workforce Insights (126919468268823238): Reston/Atlanta/Mountain View — NOT Cambridge, EXCLUDED
+- **Cloudflare**: New Director/VP roles found but all office-based:
+  - Director of Product, Media Platform (7178224): Austin/NYC/Lisbon/London — EXCLUDED
+  - VP of Product Management, Cloudflare One (7630417): Location not confirmed; consistent with Austin/NYC pattern — skip pending location confirmation
+- **Databricks**: No remote Staff PM roles. All SF/Seattle/Amsterdam.
+- **Snowflake**: Toronto (Canada) and Bellevue (WA) only. Not qualifying.
+- **Datadog**: Director PM roles still NYC hybrid. No new Boston/remote roles.
+- **OpenAI**: All PM roles SF-based.
+- **Meta**: No qualifying remote roles.
+- **Microsoft**: No Boston/remote qualifying roles confirmed.
+
+### Unresolved for Next Run
+- **GitHub job 4402** (github.careers/careers-home/jobs/4402): Confirm team — if "API Strategy" (distinct from 4722 Copilot Platform), report immediately. If same Copilot Platform team, treat as repost and skip.
+- **GitHub Staff PM, API Strategy**: Simply Hired posts Nov 23, 2025 with confirmed description. Find github.careers URL. If found, report as new.
+- **GitHub Staff PM, Copilot RAI & Safety** (startup.jobs/4445258): Appeared on startup.jobs. Confirm github.careers URL before reporting.
+- **GitHub Staff PM, Actions** (startup.jobs/3433739): Still appearing without github.careers URL. Confirm before reporting.
+- **Cloudflare VP PM, Cloudflare One** (7630417): Confirm location. If remote/Boston-compatible, qualifies on seniority.
+
+---
+
 ## Run: 2026-06-01 (Twelfth Pass)
 
 ### New Roles Found (1)
