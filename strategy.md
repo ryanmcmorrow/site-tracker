@@ -4,6 +4,40 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-06-02 (Sixteenth Pass)
+
+### New Roles Found (2)
+- **Reddit Staff Technical Product Manager, Ads ML Platform** (GH 7954001) — Remote USA (100% remote, offices NY/SF/LA/Chicago). Owns vision/roadmap for infrastructure and tools powering the Ads ML platform, including model-serving infrastructure, GenAI, and LLM workflows. Salary $190,800–$267,100. URL: job-boards.greenhouse.io/reddit/jobs/7954001. Added to seen_jobs.
+- **GitHub Director, Product Management** (job 4763) — Remote USA (or onsite SF/Bellevue/Raleigh). Director-level role on GitHub Enterprise team. URL: www.github.careers/careers-home/jobs/4763 (valid /careers-home/jobs/ format). Was found in prior runs but never persisted to seen_jobs.json due to state-tracking gap — formally logged today. Added to seen_jobs.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Reddit**: Staff Technical PM, Ads ML Platform (7954001) is a new role on job-boards.greenhouse.io (new-format URL). Aggregators (The Ladders, Remotech) mislabel it as "Senior" but the official Greenhouse title is "Staff." Remote USA confirmed. Reddit now has 21 tracked qualifying roles.
+- **GitHub**: Director PM (4763) at /careers-home/jobs/4763 was previously identified in Run 12 but not persisted to seen_jobs.json. Confirmed still active in this run via search result snippet. GitHub now has 6 tracked qualifying roles in seen_jobs. NOTE: Staff PM Copilot Platform (4722) uses /benefits/jobs/ path which violates the URL format rule — do NOT add until a /careers-home/jobs/ URL is confirmed.
+- **Stripe**: All 13 known roles confirmed still active. "Staff PM, Link Consumer Product" (7392697) appeared as NEW but confirmed EXCLUDED — office-assigned with 50% in-office expectation (same pattern as Link Balance 7118153).
+- **Anthropic**: All 3 Lead PM roles still active (Research 4933813008/4684257008, Developer Services 5021316008, Claude Code 4791979008).
+- **Discord**: Growth & SEO (8348158002) still active. No new qualifying roles.
+- **Netflix**: Security Platforms Engineering (790313768849) confirmed still active. No new remote roles.
+- **Airbnb**: All 5 qualifying roles still active. Agent Products (7525175) confirmed via careers.airbnb.com/positions/7525175/ direct search. ZipRecruiter shows a "Staff Platform Manager: AI for Agent Products - San Francisco" result — likely stale aggregator cache; official Airbnb careers page shows US Remote Eligible.
+- **Google Cambridge**: Same 5 known roles. AI summaries falsely claimed Lead Group PM Ads (140448731299226310) and Lead Group PM E-Commerce (117752687608373958) are "Available in Cambridge, MA" — DO NOT trust, these were CONFIRMED NOT Cambridge in runs 7 and 10.
+- **Databricks**: Staff PM Runtime (8032439002) appeared — Built In Seattle confirms Seattle, WA. EXCLUDED.
+- **Snowflake**: New role: Staff PM Unistore/Hybrid Tables — Bellevue, WA. NOT Boston-compatible. EXCLUDED.
+- **Datadog**: No Director PM Boston/remote roles.
+- **OpenAI**: No qualifying roles. All SF-based.
+- **Meta**: No qualifying remote roles.
+- **Microsoft**: Principal Group PM (1686019) found — Redmond, WA per jobright.ai. NOT Boston-compatible. EXCLUDED.
+- **Cloudflare**: Only stale Fraud role (5714442) still indexed. No new qualifying roles.
+- **GitHub Senior Director PM** (job 2488 on githubtalentcommunity.careers): Still only on talent community site, still no github.careers/careers-home/ URL. Cannot add.
+
+### Unresolved for Next Run
+- **GitHub Staff PM, Copilot Platform** (4722): Uses /benefits/jobs/ path — invalid per URL rules. Need to find /careers-home/jobs/4722 or equivalent. Appears only as `github.careers/benefits/jobs/4722` in all searches.
+- **GitHub Staff PM, Copilot RAI & Safety** (startup.jobs/4445258): Still no github.careers/careers-home/jobs/{id} confirmed. Do not add until found.
+- **GitHub Senior Director PM** (job 2488): Still on githubtalentcommunity.careers only. Not on github.careers. Cannot add.
+- **Google Group PM** (112859494465053382): Location still unconfirmed. Monitor.
+- **Cloudflare VP PM, Cloudflare One** (7630417): Location still unconfirmed. Low priority.
+
+---
+
 ## Run: 2026-06-02 (Fifteenth Pass)
 
 ### New Roles Found (0)
