@@ -4,6 +4,47 @@ Accumulated learnings from each run to search smarter over time.
 
 ---
 
+## Run: 2026-06-02 (Fifteenth Pass)
+
+### New Roles Found (0)
+No new qualifying roles found this run.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Reddit**: All 20 known qualifying roles confirmed active. No new IDs surfaced.
+- **Stripe**: All 13 known roles confirmed active. No new IDs found.
+- **Anthropic**: All 3 Lead PM roles confirmed active. New "Product Management, Research" (5123082008) and "Senior Product Manager, Education Labs" (5183006008) found — both below Staff/Lead level. EXCLUDED.
+- **Discord**: Growth & SEO (8348158002) confirmed active. No new qualifying roles.
+- **Netflix**: Security Platforms Engineering (790313768849) confirmed active. No new remote roles.
+- **Airbnb**: All 5 qualifying roles still active. Agent Products (7525175) CONFIRMED at careers.airbnb.com/positions/7525175/ — appeared directly in search results this run.
+- **GitHub**: All 7 known roles still appearing. Investigated new leads:
+  - **GitHub Senior Director PM** (githubtalentcommunity.careers/interest/jobs/2488): LinkedIn confirms "Remote, United States" and reports to VP Core Experiences. HOWEVER: URL format is githubtalentcommunity.careers (wrong domain) — required format is www.github.careers/careers-home/jobs/{id}. Cannot add until a github.careers ID is confirmed.
+  - **Job 4402**: Still believed to be Copilot Platform (per Joe Bourne's LinkedIn post from 2024 about Copilot team opening). NOT added per duplicate rule. Same team as 4722.
+- **Google**: Same 5 Cambridge roles. New roles investigated and excluded:
+  - Group PM, Technology and Society (88329082921460422): San Bruno/NY/Bengaluru/Hyderabad — NOT Cambridge.
+  - Group PM, Google Store (75343676055659206): Bengaluru/Hyderabad/Stockholm — NOT Cambridge (not even US).
+  - Group PM (112859494465053382): Location unconfirmed. Appears in careers.google.com but no aggregator data showing Cambridge. SKIP pending confirmation.
+  - Lead Group PM, Developer AI, Core (82350528951919302): Bengaluru/Sunnyvale/Kirkland — NOT Cambridge.
+  - Lead Group PM, YouTube Trust and Safety (111101265248690886): San Bruno, CA — NOT Cambridge.
+- **Cloudflare**: Three new Senior Director/VP roles investigated — all excluded:
+  - Senior Director PM, Threat Intelligence (6242586): Built In London listing + Austin/London/Lisbon location signals. NOT Boston-compatible.
+  - Senior Director PM, Application Performance (6251219): RemoteRocketship shows "austin-hybrid". Same exclusion as 6951791. NOT Boston-compatible.
+  - VP PM, Platform (5121079): "Ideally SF/Austin/Seattle/NYC; exceptional candidates may work remotely." Office-preferred on old boards.greenhouse.io. NOT added.
+- **Databricks**: No new remote US Staff PM roles.
+- **Snowflake**: Bellevue WA and Toronto only. No change.
+- **Datadog**: No new Boston/remote Director PM roles.
+- **OpenAI**: "Director, Certifications" (remote-US) appeared but is NOT a product management role — it's a certifications/customer education program. EXCLUDED by title. No qualifying PM roles.
+- **Meta**: No qualifying remote Director PM roles.
+- **Microsoft**: No confirmed Boston/remote qualifying roles.
+
+### Unresolved for Next Run
+- **GitHub Senior Director PM** (githubtalentcommunity.careers/interest/jobs/2488): Find the github.careers/careers-home/jobs/{id} for this role before adding. LinkedIn confirms role is Remote US and leads Security & Automation PM team.
+- **GitHub job 4402** (github.careers/careers-home/jobs/4402): Still appears Copilot-related (Joe Bourne LinkedIn 2024). Do not add unless team confirmed distinct from 4722.
+- **Google Group PM** (112859494465053382): Location unconfirmed. Monitor for aggregator listings showing Cambridge.
+- **Cloudflare VP PM, Cloudflare One** (7630417): Still unconfirmed location. Consistent Cloudflare pattern = office cities (Austin/NYC/London). Low priority.
+
+---
+
 ## Run: 2026-06-01 (Fourteenth Pass)
 
 ### New Roles Found (0)
