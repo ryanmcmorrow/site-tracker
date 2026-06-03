@@ -474,5 +474,82 @@
     "title": "Director, Product Management",
     "company": "GitHub",
     "url": "https://www.github.careers/careers-home/jobs/4763"
+  },
+  "anthropic-pm-consumer-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Product Manager, Consumer",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5127559008"
+  },
+  "anthropic-pm-compute-platform-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Product Manager, Compute Platform",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5124623008"
+  },
+  "anthropic-senior-pm-education-labs-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Senior Product Manager, Education Labs",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183006008"
+  },
+  "anthropic-pm-developer-productivity-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Product Manager, Developer Productivity",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5220143008"
+  },
+  "anthropic-pm-claude-code-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Product Manager, Claude Code",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4985920008"
+  },
+  "anthropic-pm-management-research-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Product Management, Research",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5123082008"
+  },
+  "anthropic-pm-mobile-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Product Manager, Mobile",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4933411008"
+  },
+  "anthropic-pm-monetization-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Product Manager, Monetization",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5153773008"
+  },
+  "anthropic-pm-safeguards-privacy-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Product Manager, Safeguards (Privacy)",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097486008"
+  },
+  "anthropic-research-pm-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Research Product Manager",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4933792008"
+  },
+  "anthropic-pm-research-sf-25pct": {
+    "first_seen": "2026-06-03",
+    "posted": null,
+    "title": "Product Manager, Research",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4807590008"
   }
 }

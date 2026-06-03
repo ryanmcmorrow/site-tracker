@@ -1,5 +1,51 @@
 # Job Tracker Strategy
 
+---
+
+## Run: 2026-06-03 (Seventeenth Pass)
+
+### New Roles Found (11)
+All 11 new roles are at Anthropic — correcting a systematic error in prior runs that incorrectly filtered Anthropic roles by seniority level. The task criteria explicitly states "Include ALL Anthropic product management roles regardless of seniority level." Past runs only tracked Lead PM roles; all non-Lead Anthropic PM roles are now added.
+
+New Anthropic roles added:
+1. **Product Manager, Consumer** (5127559008) — SF, ≤25% in-office
+2. **Product Manager, Compute Platform** (5124623008) — SF, ≤25% in-office
+3. **Senior Product Manager, Education Labs** (5183006008) — SF, ≤25% in-office (was found in run 15 but incorrectly excluded)
+4. **Product Manager, Developer Productivity** (5220143008) — SF, ≤25% in-office
+5. **Product Manager, Claude Code** (4985920008) — SF, ≤25% in-office (distinct from Lead PM Claude Code 4791979008)
+6. **Product Management, Research** (5123082008) — SF, ≤25% in-office (was found in run 15 but incorrectly excluded; distinct from Lead PM Research 4684257008)
+7. **Product Manager, Mobile** (4933411008) — SF, ≤25% in-office
+8. **Product Manager, Monetization** (5153773008) — SF, ≤25% in-office
+9. **Product Manager, Safeguards (Privacy)** (5097486008) — SF, ≤25% in-office
+10. **Research Product Manager** (4933792008) — SF, ≤25% in-office
+11. **Product Manager, Research** (4807590008) — SF, ≤25% in-office (distinct from "Product Management, Research" 5123082008)
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **CORRECTION**: Criteria says "Include ALL Anthropic product management roles regardless of seniority level." Previous runs incorrectly excluded "Product Manager" and "Senior Product Manager" level Anthropic roles. Going forward, include ALL Anthropic PM roles. Only exclude non-PM roles like "Product Operations Manager" (ops) and "Analytics Data Engineering Manager" (engineering manager).
+- **Anthropic roles NOT included** (not PM roles): Product Operations Manager, Feedback Loops (5179882008); Analytics Data Engineering Manager, Product (5125387008).
+- **Reddit**: All 21 known qualifying roles confirmed active. No new IDs surfaced.
+- **Stripe**: All 13 known roles confirmed active. No new IDs.
+- **Airbnb**: 7525175 (Agent Products and Intelligence Platforms) confirmed still active on careers.airbnb.com/positions/7525175/. All 5 qualifying Airbnb roles still open.
+- **Discord**: Growth & SEO (8348158002) still active. No new qualifying roles.
+- **Netflix**: Security Platforms Engineering (790313768849) confirmed active. No new remote roles.
+- **GitHub**: Director PM (4763) confirmed still active at github.careers/careers-home/jobs/4763. Job 4402 (Staff PM) confirmed Copilot-related — still do NOT add, same team as 4722. All 7 known GitHub roles still active.
+- **Google Cambridge**: All 5 known Cambridge roles still appearing. No new Cambridge roles confirmed.
+- **Databricks**: Only Staff PM Network Security (6454355002) found — primary SF, excluded. No new remote qualifying roles.
+- **Datadog**: No Director PM Boston/remote roles.
+- **OpenAI**: All PM roles SF-based. No qualifying roles.
+- **Meta**: No qualifying remote roles.
+- **Microsoft**: Principal PM roles found but all Redmond-based. No confirmed Boston/remote qualifying roles.
+- **Snowflake**: Developer Platform (Toronto), Unistore (Bellevue). No qualifying roles.
+- **Cloudflare**: Only stale Fraud role (5714442) still indexed.
+
+### Unresolved for Next Run
+- **GitHub Staff PM, Copilot Platform** (4722): Uses /benefits/jobs/ path in seen_jobs. Job 4402 at /careers-home/jobs/4402 may be same team — continue to skip until team is confirmed distinct.
+- **Anthropic PM completeness**: Do a full census of Anthropic PM roles each run to catch any new ones quickly going forward. Search: `site:job-boards.greenhouse.io/anthropic "product manager"`.
+- **GitHub Director PM** (4763): Confirmed active this run.
+
+---
+
 Accumulated learnings from each run to search smarter over time.
 
 ---
