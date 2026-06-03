@@ -2,6 +2,36 @@
 
 ---
 
+## Run: 2026-06-03 (Eighteenth Pass)
+
+### New Roles Found (1)
+- **Anthropic Product Manager, Consumer Growth** (GH 4642227008) — San Francisco / New York City / Seattle; ≤25% in-office per Anthropic policy. Drives user acquisition, monetization, and retention for Anthropic's AI products (Claude.ai, etc.). Active on Greenhouse and confirmed on Built In SF, Built In NYC, Menlo Ventures, General Catalyst job boards. Added to seen_jobs.
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Anthropic**: 4642227008 (Product Manager, Consumer Growth) was not caught in run 17 search — now found and added. Current Greenhouse search returns 10 active Anthropic PM roles including this one. Roles NOT returned in this run's searches (may be search variation, not closed): Lead PM Developer Services (5021316008), Lead PM Claude Code (4791979008), Sr PM Education Labs (5183006008), PM Developer Productivity (5220143008), PM Mobile (4933411008). These remain in seen_jobs — do not remove without confirmed closure.
+- **Reddit**: All 21 known qualifying roles confirmed still indexed on job-boards.greenhouse.io. No new IDs surfaced.
+- **Stripe**: Same 13 known roles confirmed. No new roles.
+- **Discord**: Growth & SEO (8348158002) confirmed active. No new qualifying remote roles.
+- **Netflix**: Security Platforms Engineering (790313768849) confirmed still active (only result for netflix remote 2026). No new qualifying roles.
+- **Airbnb**: Agent Products (7525175) confirmed at careers.airbnb.com/positions/7525175/. All 5 qualifying roles still active.
+- **GitHub**: Jobs 5140, 4884, 4763 confirmed. Job 4722 on /benefits/ path. No new qualifying roles. Job 4402 ("Staff Product Manager") at github.careers/careers-home/jobs/4402 — description still generic, search snippets suggest Copilot Platform focus. NOT added per prior strategy rule.
+- **Google Cambridge**: Same 5 known qualifying roles (81599409300611782, 129173606920790726, 97142797563241158, 106894634206012102, 72164420028900038). No new Cambridge-confirmed roles. Lead Group PM Sports Search (112934112477487814) appears on Tech:NYC Job Board — NOT Cambridge. Lead Group PM GenAI Cloud (78154020291519174) was confirmed Kirkland WA in run 9 — NOT Cambridge.
+- **Datadog "Director, PM - Datadog Apps" (Boston)**: Built In Boston listing (job 97800) is STALE — job was removed November 8, 2022. Not a real current opening. DO NOT track this.
+- **Databricks**: Same known roles, all SF/Seattle/Amsterdam. No new qualifying roles.
+- **Snowflake**: No change.
+- **OpenAI**: Product Manager, Codex (SF-only). No qualifying remote PM roles.
+- **Meta**: Product Management, Director (816501496761265) shows "remote" on Glassdoor but Meta's 3-5 days in-office policy applies. Not qualifying. No new Boston-compatible roles.
+- **Microsoft**: Principal Group PM (1686019) still Redmond WA. No qualifying roles.
+- **Cloudflare**: No new qualifying roles. Stale Fraud role (5714442) still in seen_jobs.
+
+### Unresolved for Next Run
+- **GitHub job 4402**: Generic description, still suspected Copilot Platform repost of 4722. Do not add until team confirmed distinct.
+- **Anthropic roles not found this run**: Lead PM Developer Services (5021316008), Lead PM Claude Code (4791979008), Sr PM Education Labs (5183006008), PM Developer Productivity (5220143008), PM Mobile (4933411008) — all in seen_jobs, verify still active next run.
+- **GitHub Staff PM, Copilot RAI & Safety** (startup.jobs/4445258): Still no github.careers/careers-home/jobs/ URL confirmed.
+
+---
+
 ## Run: 2026-06-03 (Seventeenth Pass)
 
 ### New Roles Found (11)
