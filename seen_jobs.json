@@ -380,7 +380,7 @@
   "reddit-staff-pm-growth-new-user-acquisition-eastern-timezone-remote-usa": {
     "first_seen": "2026-05-28",
     "posted": null,
-    "title": "Staff Product Manager, Growth — New User Acquisition, Eastern Timezone",
+    "title": "Staff Product Manager, Growth \u2014 New User Acquisition, Eastern Timezone",
     "company": "Reddit",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/6379485"
   },
@@ -558,5 +558,26 @@
     "title": "Product Manager, Consumer Growth",
     "company": "Anthropic",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/4642227008"
+  },
+  "netflix-principal-pm-experimentation-platform-usa-remote": {
+    "first_seen": "2026-06-04",
+    "posted": null,
+    "title": "Principal Product Manager, Experimentation Platform",
+    "company": "Netflix",
+    "url": "https://explore.jobs.netflix.net/careers/job/790313738714-principal-product-manager-experimentation-platform-usa-remote"
+  },
+  "netflix-principal-pm-games-social-platform-usa-remote": {
+    "first_seen": "2026-06-04",
+    "posted": null,
+    "title": "Principal Product Manager - Games, Social Platform",
+    "company": "Netflix",
+    "url": "https://explore.jobs.netflix.net/careers/job/790312452283-principal-product-manager-games-social-platform-usa-remote"
+  },
+  "google-group-pm-generative-ai-google-cloud-ai-remote-107168667162026694": {
+    "first_seen": "2026-06-04",
+    "posted": null,
+    "title": "Group Product Manager, Generative AI, Google Cloud AI",
+    "company": "Google",
+    "url": "https://careers.google.com/jobs/results/107168667162026694-group-product-manager-generative-ai-google-cloud-ai"
   }
 }

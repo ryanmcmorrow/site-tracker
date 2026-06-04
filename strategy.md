@@ -2,6 +2,41 @@
 
 ---
 
+## Run: 2026-06-04 (Nineteenth Pass)
+
+### New Roles Found (3)
+1. **Netflix Principal Product Manager, Experimentation Platform** — USA Remote. New to DB this run. URL: explore.jobs.netflix.net/careers/job/790313738714-...
+2. **Netflix Principal Product Manager - Games, Social Platform** — USA Remote. New to DB this run. URL: explore.jobs.netflix.net/careers/job/790312452283-...
+3. **Google Group Product Manager, Generative AI, Google Cloud AI** (ID 107168667162026694) — Remote US confirmed (multiple office hubs + "remote locations across the United States"). New to DB this run. URL: careers.google.com/jobs/results/107168667162026694-...
+
+### Key Observations
+- All ATS APIs (greenhouse, ashby, lever) still return HTTP 403. WebSearch remains the only viable path.
+- **Netflix**: Two new Principal PM roles appeared this run — Experimentation Platform and Games, Social Platform. Both are USA Remote. Group PM Security Platforms Engineering (790313768849) confirmed still indexed. Group PM Payments (790314756260) remains excluded (West Coast remote only).
+- **Google**: New qualifying role found — Group PM Generative AI Google Cloud AI (107168667162026694) with confirmed remote US eligibility in addition to in-office options. This is separate from the Cambridge-MA-anchored Google roles already tracked.
+- **GitHub job 4402**: Still appearing in search results (confirmed active). Per Run 18 strategy, still NOT added — description remains generic, suspected Copilot Platform repost. Flagged for another pass to confirm uniqueness.
+- **Anthropic**: All 15 known PM roles confirmed still indexed in search results. No new roles this run. Roles not surfaced this search pass (may be search variation, not closed): Lead PM Developer Services (5021316008), Lead PM Claude Code (4791979008), Senior PM Education Labs (5183006008), PM Developer Productivity (5220143008), PM Mobile (4933411008), PM Safeguards Privacy (5097486008), Research PM (4933792008), PM Research (4807590008).
+- **Reddit**: All known roles still active. Ads API (7746309), SMB Ads (7216493), Ads Monetization Searcher (7483888), Senior Group PM Advertiser Optimization (7858506) confirmed in search results. No new Reddit roles.
+- **Stripe**: All 13 known qualifying roles confirmed via search snippets. No new Stripe roles.
+- **Airbnb**: Staff PM AI Personalization (7834495) confirmed active. No new qualifying roles.
+- **Discord**: Staff PM Payments (8362678002) and Commerce (8432341002) still SF on-site only — excluded. Group PM Core Product and Group PM Machine Learning: appear remote but discord.com/jobs canonical URLs still not confirmed. NOT added.
+- **Databricks**: No new qualifying roles. All Staff PM roles remain hub-based (SF/Seattle).
+- **OpenAI**: Still no Staff/Director/Principal PM titles found via search. All PM roles found at PM-only seniority level.
+- **Snowflake**: No qualifying remote roles found.
+- **Microsoft**: No qualifying roles — Cambridge, MA office creates 4-day/week in-office conflict for Boston-based candidates.
+- **Meta**: Director PM Content Integrity T&S (2674151899454763) still in search results but location not confirmed as Boston-compatible. Still excluded.
+- **Cloudflare**: Senior Director PM App Performance (Austin hybrid) — excluded. Senior Director PM Data Security confirmed hybrid but no cloudflare.com/careers/jobs canonical URL found. NOT added.
+- **Datadog**: Director PM Applied AI (7616721) and Director PM AI Observability (7798672) confirmed indexed. Still excluded pending Boston/remote compatibility confirmation.
+
+### Unresolved for Next Run
+- **GitHub job 4402**: Confirm if this is a distinct role (Copilot Platform vs. prior 4722). Add if distinct.
+- **Netflix**: Check for any new qualifying roles — the two new Principal PM roles suggest active hiring.
+- **Google**: Check if new Group PM roles with remote US options have appeared.
+- **Meta Director PM Content Integrity T&S**: Search specifically for location/remote confirmation.
+- **Cloudflare Senior Director PM Data Security**: Find cloudflare.com/careers/jobs canonical URL.
+- **Anthropic roles not surfaced this pass**: Verify Lead PM Developer Services (5021316008), Lead PM Claude Code (4791979008), Sr PM Education Labs (5183006008), PM Developer Productivity (5220143008), PM Mobile (4933411008) are still active. Do not remove without confirmed closure signal.
+
+---
+
 ## Run: 2026-06-03 (Eighteenth Pass)
 
 ### New Roles Found (1)
