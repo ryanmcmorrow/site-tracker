@@ -1,6 +1,6 @@
 # Job Tracker Strategy Notes
 
-## Last Updated: 2026-06-04
+## Last Updated: 2026-06-05
 
 ---
 
@@ -19,16 +19,18 @@
 ### Anthropic (Greenhouse token: anthropic)
 - API blocked — used WebSearch fallback
 - URL pattern: `https://job-boards.greenhouse.io/anthropic/jobs/{id}`
-- Found ~12 open PM roles as of 2026-06-04
+- Found ~12 open PM roles as of 2026-06-04; 10 additional (older) roles found 2026-06-05
 - **Location note:** Anthropic is office-first (only ~8% of roles remote). Most PM roles list SF/NY/Seattle.
-  - Confirmed remote-friendly: PM Revenue Platform (5077197008), PM Safeguards (5097486008)
-  - Other PM roles may require >25% in-office — user should verify individual pages
+  - Confirmed remote-friendly: PM Revenue Platform (5077197008), PM Safeguards Privacy (5097486008), PM Growth (4124498008 — "Remote-Friendly, Travel-Required")
+  - Company-wide policy: "at least 25% of the time in one of our offices" = floor of 25% in-office → meets location exception threshold
+  - Older roles (4021723008–4557009008) found 2026-06-05 — likely open for longer; verify individual pages for in-office requirements
 - Non-PM role found in feed: Analytics Data Engineering Manager, Product (5125387008) — excluded (not PM role)
 
 ### Airbnb (Greenhouse token: airbnb)
 - API blocked — used WebSearch fallback
-- **Result:** No Staff/Group/Director/Principal PM roles found in search results. Only regular PM and Senior Manager roles.
-- Airbnb appears to not currently have senior PM openings at the Staff+ level. Check again next run.
+- **2026-06-04:** No Staff/Group/Director/Principal PM roles found.
+- **2026-06-05:** Found Staff PM, AI Personalization (7834495) — confirmed "US Remote Eligible," salary $200K–$240K.
+- URL pattern: `https://job-boards.greenhouse.io/airbnb/jobs/{id}`
 
 ### Reddit (Greenhouse token: reddit)
 - API blocked — used WebSearch fallback
@@ -41,6 +43,7 @@
 - API blocked — used WebSearch fallback
 - URL pattern: `https://job-boards.greenhouse.io/discord/jobs/{id}`
 - Found Staff PM and Group PM roles, all "San Francisco, CA or Remote (U.S.)" — qualifies
+- **2026-06-05:** Found 2 additional Director of Product roles (5197403002, 5871614002) — both remote
 - Note: "Director of Product Communications" (8542210002) was found but excluded — it's a communications role, not PM
 
 ### Databricks (Greenhouse token: databricks)
@@ -54,8 +57,8 @@
 - API blocked — used WebSearch fallback
 - **Note:** Stripe jobs surface at `https://stripe.com/jobs/listing/{slug}/{id}` not `job-boards.greenhouse.io/stripe`
 - All found Staff PM roles explicitly say "remote (35+ miles from a Stripe office)" — all qualify
-- Found 9 Staff PM roles; may be more
-- Salary range: $194,800–$321,500 for Staff PM
+- Found 9 Staff PM roles as of 2026-06-04; 2 more found 2026-06-05 (Link Balance 7118153, Enterprise Industries 7812856)
+- Salary range: $194,800–$321,500 for Staff PM; Link Balance confirmed $214,300–$321,500
 
 ### Datadog (Greenhouse token: datadog)
 - API blocked — used WebSearch fallback
@@ -115,12 +118,21 @@
 Include: Staff Product Manager, Group Product Manager, Director of Product Management, Principal Product Manager (or equivalent)
 Exclude: Senior PM, Associate PM, or anything below Staff level
 
-## Excluded Roles This Run
+## Excluded Roles — Cumulative
 - Analytics Data Engineering Manager, Product @ Anthropic (not PM)
 - Director of Product Communications @ Discord (not PM)
 - Product Manager (non-senior) roles at all companies
 - All Snowflake roles (CA office-required)
-- All Airbnb — no qualifying titles found
-- All OpenAI — no senior PM roles found
-- All Microsoft — no specific role IDs found
-- All Cloudflare — no qualifying roles found
+- All OpenAI — no senior PM roles found (2026-06-04, 2026-06-05)
+- All Microsoft — no specific role IDs found (2026-06-04, 2026-06-05)
+- All Cloudflare — no qualifying roles found (2026-06-04, 2026-06-05)
+- Datadog Group PM roles (Infrastructure/SDLC, Threat Management, Metrics) — hybrid but NYC-based; uncertain Boston compatibility
+- Datadog Staff PM, AI — explicitly New York, NY; not Boston-compatible
+- Reddit Staff PM Reddit Profiles (5888261) — older posting of same title as reddit-6478046; included 2026-06-05 for completeness
+
+## 2026-06-05 New Discoveries
+- Airbnb re-entered tracker: Staff PM AI Personalization (7834495) — confirmed remote eligible
+- Discord Director roles added: Friends (5197403002), Trust & Safety (5871614002) — both remote
+- 10 older Anthropic PM roles (4021723008–4557009008) found — not in previous run's search results
+- 9 older Reddit Staff PM roles (3464553–5888261) found — not in previous run's results; older IDs but still indexed
+- 2 new Stripe Staff PM roles: Link Balance (7118153), Enterprise Industries (7812856)
