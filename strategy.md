@@ -130,9 +130,18 @@ Exclude: Senior PM, Associate PM, or anything below Staff level
 - Datadog Staff PM, AI — explicitly New York, NY; not Boston-compatible
 - Reddit Staff PM Reddit Profiles (5888261) — older posting of same title as reddit-6478046; included 2026-06-05 for completeness
 
-## 2026-06-05 New Discoveries
+## 2026-06-05 New Discoveries (first pass, earlier in day)
 - Airbnb re-entered tracker: Staff PM AI Personalization (7834495) — confirmed remote eligible
 - Discord Director roles added: Friends (5197403002), Trust & Safety (5871614002) — both remote
 - 10 older Anthropic PM roles (4021723008–4557009008) found — not in previous run's search results
 - 9 older Reddit Staff PM roles (3464553–5888261) found — not in previous run's results; older IDs but still indexed
 - 2 new Stripe Staff PM roles: Link Balance (7118153), Enterprise Industries (7812856)
+
+## 2026-06-05 New Discoveries (second pass, current run)
+- Anthropic PM Mobile (4933411008) — new role not found in earlier pass
+- Reddit Principal PM - Ads Manager/Monetization (6762983) — new role
+- Reddit Senior Group PM, Advertiser Optimization/Ads Marketplace (7858506) — new Group PM role
+- Confirmed: Datadog all NYC-based hybrid, Microsoft 4 days/wk in-office → excluded from tracker
+- Confirmed: Netflix migrated off Lever to explore.jobs.netflix.net (Phenom ATS)
+- GitHub Staff PM (4402) at /careers-home/jobs/4402 confirmed valid URL; already tracked
+- All WebFetch calls return 403 from execution environment — WebSearch-only verification strategy in effect
