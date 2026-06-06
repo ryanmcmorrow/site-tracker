@@ -107,7 +107,7 @@
   "reddit-6379485": {
     "first_seen": "2026-06-04",
     "posted": null,
-    "title": "Staff Product Manager, Growth — New User Acquisition, Eastern Timezone",
+    "title": "Staff Product Manager, Growth \u2014 New User Acquisition, Eastern Timezone",
     "company": "Reddit",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/6379485"
   },
@@ -579,5 +579,75 @@
     "title": "Senior Group Product Manager, Advertiser Optimization (Ads Marketplace)",
     "company": "Reddit",
     "url": "https://job-boards.greenhouse.io/reddit/jobs/7858506"
+  },
+  "anthropic-5153924008": {
+    "first_seen": "2026-06-06",
+    "posted": null,
+    "title": "Product Manager, Multi-Cloud Growth - Google",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5153924008"
+  },
+  "anthropic-5220143008": {
+    "first_seen": "2026-06-06",
+    "posted": null,
+    "title": "Product Manager, Developer Productivity",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5220143008"
+  },
+  "anthropic-5247640008": {
+    "first_seen": "2026-06-06",
+    "posted": null,
+    "title": "Product Manager, Claude Code Model Performance",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5247640008"
+  },
+  "anthropic-4936029008": {
+    "first_seen": "2026-06-06",
+    "posted": null,
+    "title": "Product Manager, API",
+    "company": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4936029008"
+  },
+  "reddit-7483888": {
+    "first_seen": "2026-06-06",
+    "posted": null,
+    "title": "Staff Product Manager, Ads Monetization - Searcher Monetization",
+    "company": "Reddit",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/7483888"
+  },
+  "reddit-5327220": {
+    "first_seen": "2026-06-06",
+    "posted": null,
+    "title": "Staff Product Manager, Content Discovery (EST timezone only)",
+    "company": "Reddit",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/5327220"
+  },
+  "reddit-5153402": {
+    "first_seen": "2026-06-06",
+    "posted": null,
+    "title": "Group Product Manager, Ads Marketplace",
+    "company": "Reddit",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/5153402"
+  },
+  "stripe-7980498": {
+    "first_seen": "2026-06-06",
+    "posted": "2026-06-03",
+    "title": "Staff Product Manager, Cards Monetization",
+    "company": "Stripe",
+    "url": "https://job-boards.greenhouse.io/stripe/jobs/7980498"
+  },
+  "github-5315": {
+    "first_seen": "2026-06-06",
+    "posted": null,
+    "title": "Staff Product Manager",
+    "company": "GitHub",
+    "url": "https://www.github.careers/careers-home/jobs/5315"
+  },
+  "github-4722": {
+    "first_seen": "2026-06-06",
+    "posted": null,
+    "title": "Staff Product Manager",
+    "company": "GitHub",
+    "url": "https://www.github.careers/careers-home/jobs/4722"
   }
 }
