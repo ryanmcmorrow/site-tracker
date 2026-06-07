@@ -149,9 +149,12 @@ Exclude: Senior PM, Associate PM, or anything below Staff level
 | 2026-06-06 | 10 | 93 |
 | 2026-06-07 | 0 | 93 |
 
-## 2026-06-07 Run Notes
+## 2026-06-07 Run Notes (Run 2 — confirmed same session)
 - All ATS API endpoints blocked by network policy (HTTP 403 / "Host not in allowlist") — same as all prior runs
-- Hosts blocked: `boards-api.greenhouse.io`, `api.ashbyhq.com`, `api.lever.co`
+- Hosts blocked (all 12 API calls attempted in parallel and all returned 403):
+  - Greenhouse: `boards-api.greenhouse.io` (anthropic, airbnb, reddit, discord, databricks, stripe, datadog, cloudflare, github, snowflake)
+  - Ashby: `api.ashbyhq.com` (openai)
+  - Lever: `api.lever.co` (netflix)
 - Per task instructions: "Do NOT fall back to WebSearch for any company under any circumstances" — no WebSearch fallback used
 - 0 new roles detected. No email sent.
 - seen_jobs.json unchanged (93 roles total)
