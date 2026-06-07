@@ -7,26 +7,27 @@ GREENHOUSE = {
     'Datadog': 'datadog', 'Cloudflare': 'cloudflare',
 }
 
-ASHBY_OLD = {'OpenAI': 'openai'}   # format: {"jobPostings": [...], "locationName": ...}
-ASHBY_NEW = {'Snowflake': 'snowflake'}  # format: {"jobs": [...], "location": ...}
+ASHBY_OLD = {'OpenAI': 'openai'}
+ASHBY_NEW = {'Snowflake': 'snowflake'}
 
-# Reject any location containing these — unambiguously non-US
 REJECT_KEYWORDS = [
-    # Countries
     'netherlands', 'germany', 'france', 'spain', 'ireland', 'australia',
     'canada', 'india', 'singapore', 'japan', 'brazil', 'mexico',
     'united kingdom', 'england', 'poland', 'sweden', 'denmark', 'finland',
     'norway', 'switzerland', 'austria', 'belgium', 'portugal', 'italy',
     'israel', 'taiwan', 'south korea', 'new zealand',
-    # Non-US cities (unambiguous)
     'amsterdam', 'berlin', 'munich', 'frankfurt', 'paris', 'barcelona',
     'madrid', 'london', 'manchester', 'dublin', 'sydney', 'melbourne',
     'toronto', 'vancouver', 'montreal', 'bangalore', 'hyderabad', 'mumbai',
     'tokyo', 'osaka', 'seoul', 'beijing', 'shanghai', 'tel aviv',
     'zurich', 'stockholm', 'oslo', 'copenhagen', 'warsaw', 'brussels',
-    # Regions
     'apac', 'emea', 'latam', ' europe', 'asia pacific',
 ]
+
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'application/json',
+}
 
 def slugify(s):
     s = s.lower()
@@ -35,7 +36,8 @@ def slugify(s):
 
 def fetch(url):
     try:
-        with urllib.request.urlopen(url, timeout=15) as r:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=15) as r:
             return json.loads(r.read())
     except Exception as e:
         print(f"SKIP {url}: {e}")
