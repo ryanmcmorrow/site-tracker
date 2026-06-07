@@ -10,6 +10,24 @@ GREENHOUSE = {
 ASHBY_OLD = {'OpenAI': 'openai'}   # format: {"jobPostings": [...], "locationName": ...}
 ASHBY_NEW = {'Snowflake': 'snowflake'}  # format: {"jobs": [...], "location": ...}
 
+# Reject any location containing these — unambiguously non-US
+REJECT_KEYWORDS = [
+    # Countries
+    'netherlands', 'germany', 'france', 'spain', 'ireland', 'australia',
+    'canada', 'india', 'singapore', 'japan', 'brazil', 'mexico',
+    'united kingdom', 'england', 'poland', 'sweden', 'denmark', 'finland',
+    'norway', 'switzerland', 'austria', 'belgium', 'portugal', 'italy',
+    'israel', 'taiwan', 'south korea', 'new zealand',
+    # Non-US cities (unambiguous)
+    'amsterdam', 'berlin', 'munich', 'frankfurt', 'paris', 'barcelona',
+    'madrid', 'london', 'manchester', 'dublin', 'sydney', 'melbourne',
+    'toronto', 'vancouver', 'montreal', 'bangalore', 'hyderabad', 'mumbai',
+    'tokyo', 'osaka', 'seoul', 'beijing', 'shanghai', 'tel aviv',
+    'zurich', 'stockholm', 'oslo', 'copenhagen', 'warsaw', 'brussels',
+    # Regions
+    'apac', 'emea', 'latam', ' europe', 'asia pacific',
+]
+
 def slugify(s):
     s = s.lower()
     s = re.sub(r'[^a-z0-9\s-]', '', s)
@@ -33,9 +51,10 @@ def title_ok(title, company):
     return senior and pm and not exclude
 
 def loc_ok(loc):
+    if not loc:
+        return True
     l = loc.lower()
-    bad = ['on-site only', 'onsite only', 'in-office only']
-    return not any(b in l for b in bad)
+    return not any(kw in l for kw in REJECT_KEYWORDS)
 
 try:
     seen = json.load(open('seen_jobs.json'))
