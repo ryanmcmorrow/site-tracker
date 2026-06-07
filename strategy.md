@@ -1,6 +1,6 @@
 # Job Tracker Strategy Notes
 
-## Last Updated: 2026-06-06
+## Last Updated: 2026-06-07
 
 ---
 
@@ -147,6 +147,15 @@ Exclude: Senior PM, Associate PM, or anything below Staff level
 | 2026-06-04 | 54 | 54 |
 | 2026-06-05 | 29 | 83 |
 | 2026-06-06 | 10 | 93 |
+| 2026-06-07 | 0 | 93 |
+
+## 2026-06-07 Run Notes
+- All ATS API endpoints blocked by network policy (HTTP 403 / "Host not in allowlist") — same as all prior runs
+- Hosts blocked: `boards-api.greenhouse.io`, `api.ashbyhq.com`, `api.lever.co`
+- Per task instructions: "Do NOT fall back to WebSearch for any company under any circumstances" — no WebSearch fallback used
+- 0 new roles detected. No email sent.
+- seen_jobs.json unchanged (93 roles total)
+- **Action required:** Environment network policy must allowlist ATS API hosts to enable automated role detection without WebSearch fallback.
 
 ## 2026-06-06 Run Notes
 - 4 new Anthropic PM roles (Multi-Cloud Growth, Developer Productivity, Claude Code Model Performance, API repost)
