@@ -1,0 +1,261 @@
+{
+  "date": "2026-06-07",
+  "roles": [
+    {
+      "company": "Anthropic",
+      "title": "Analytics Data Engineering Manager, Product",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5125387008",
+      "posted": "2026-05-08T12:13:39-04:00",
+      "job_id": "anthropicanalytics-data-engineering-manager-productsan-francisco-ca-new-york-city-ny-seattle-wa"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Engineering Manager, Cybersecurity Products",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5236531008",
+      "posted": "2026-05-30T15:16:12-04:00",
+      "job_id": "anthropicengineering-manager-cybersecurity-productssan-francisco-ca-new-york-city-ny"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Incident Response Manager - Product & Engineering",
+      "location": "New York City, NY; San Francisco, CA | New York City, NY; Seattle, WA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5205495008",
+      "posted": "2026-04-29T18:13:08-04:00",
+      "job_id": "anthropicincident-response-manager---product-engineeringnew-york-city-ny-san-francisco-ca-new-york-city-ny-seattle-wa"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Product Manager, API Growth",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5181852008",
+      "posted": "2026-05-22T11:25:52-04:00",
+      "job_id": "anthropicproduct-manager-api-growthsan-francisco-ca-new-york-city-ny-seattle-wa"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Product Manager, Claude Code Model Performance ",
+      "location": "San Francisco, CA | Seattle, WA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5247640008",
+      "posted": "2026-06-05T13:42:53-04:00",
+      "job_id": "anthropicproduct-manager-claude-code-model-performance-san-francisco-ca-seattle-wa"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Product Manager, Compute Platform",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5124623008",
+      "posted": "2026-06-05T17:12:55-04:00",
+      "job_id": "anthropicproduct-manager-compute-platformsan-francisco-ca-new-york-city-ny-seattle-wa"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Product Manager, Consumer",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5127559008",
+      "posted": "2026-05-26T13:18:19-04:00",
+      "job_id": "anthropicproduct-manager-consumersan-francisco-ca-new-york-city-ny"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Product Manager, Developer Productivity",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5220143008",
+      "posted": "2026-05-19T06:34:22-04:00",
+      "job_id": "anthropicproduct-manager-developer-productivitysan-francisco-ca-new-york-city-ny"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Product Manager, Multi-Cloud Growth - Google",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5153924008",
+      "posted": "2026-05-23T01:38:43-04:00",
+      "job_id": "anthropicproduct-manager-multi-cloud-growth---googlesan-francisco-ca"
+    },
+    {
+      "company": "Reddit",
+      "title": "Senior Group Product Manager, Advertiser Optimization (Ads Marketplace)",
+      "location": "Remote - United States",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7858506",
+      "posted": "2026-05-14T14:49:53-04:00",
+      "job_id": "redditsenior-group-product-manager-advertiser-optimization-ads-marketplaceremote---united-states"
+    },
+    {
+      "company": "Reddit",
+      "title": "Staff Product Manager, Finance Applications",
+      "location": "Remote - United States",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7803856",
+      "posted": "2026-05-14T13:18:56-04:00",
+      "job_id": "redditstaff-product-manager-finance-applicationsremote---united-states"
+    },
+    {
+      "company": "Reddit",
+      "title": "Staff Technical Product Manager, Ads ML Platform ",
+      "location": "Remote - United States",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7954001",
+      "posted": "2026-06-07T13:02:35-04:00",
+      "job_id": "redditstaff-technical-product-manager-ads-ml-platform-remote---united-states"
+    },
+    {
+      "company": "Discord",
+      "title": "Staff Product Manager, Safety Experience",
+      "location": "San Francisco Bay Area",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8502993002",
+      "posted": "2026-05-06T16:46:12-04:00",
+      "job_id": "discordstaff-product-manager-safety-experiencesan-francisco-bay-area"
+    },
+    {
+      "company": "Databricks",
+      "title": "Staff Product Manager, AI Platform",
+      "location": "Seattle, Washington",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8427940002",
+      "posted": "2026-04-09T16:51:27-04:00",
+      "job_id": "databricksstaff-product-manager-ai-platformseattle-washington"
+    },
+    {
+      "company": "Databricks",
+      "title": "Staff Product Manager, AI Platform",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8420609002",
+      "posted": "2026-04-09T16:51:27-04:00",
+      "job_id": "databricksstaff-product-manager-ai-platformsan-francisco-california"
+    },
+    {
+      "company": "Databricks",
+      "title": "Staff Product Manager, Security",
+      "location": "Seattle, Washington",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7110509002",
+      "posted": "2026-04-09T16:51:09-04:00",
+      "job_id": "databricksstaff-product-manager-securityseattle-washington"
+    },
+    {
+      "company": "Databricks",
+      "title": "Staff Product Manager, Security",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7110499002",
+      "posted": "2026-04-09T16:51:09-04:00",
+      "job_id": "databricksstaff-product-manager-securitysan-francisco-california"
+    },
+    {
+      "company": "Databricks",
+      "title": "Staff Product Manager, Serverless Workspaces",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8420607002",
+      "posted": "2026-04-09T16:51:27-04:00",
+      "job_id": "databricksstaff-product-manager-serverless-workspacessan-francisco-california"
+    },
+    {
+      "company": "Databricks",
+      "title": "Staff Product Manager, Serverless Workspaces",
+      "location": "Seattle, Washington",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8427954002",
+      "posted": "2026-04-09T16:51:27-04:00",
+      "job_id": "databricksstaff-product-manager-serverless-workspacesseattle-washington"
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Product Manager, Cards Monetization",
+      "location": "Seattle, San Francisco, New York, US - Remote",
+      "url": "https://stripe.com/jobs/search?gh_jid=7980498",
+      "posted": "2026-06-03T16:56:23-04:00",
+      "job_id": "stripestaff-product-manager-cards-monetizationseattle-san-francisco-new-york-us---remote"
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Product Manager, Dashboard",
+      "location": "San Francisco, Seattle, NYC, Chicago, Atlanta, US Remote",
+      "url": "https://stripe.com/jobs/search?gh_jid=7913702",
+      "posted": "2026-06-05T12:44:59-04:00",
+      "job_id": "stripestaff-product-manager-dashboardsan-francisco-seattle-nyc-chicago-atlanta-us-remote"
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Product Manager, Enterprise (Industries) ",
+      "location": "San Francisco, Seattle, New York, Chicago, Atlanta, Remote",
+      "url": "https://stripe.com/jobs/search?gh_jid=7812856",
+      "posted": "2026-06-05T16:06:08-04:00",
+      "job_id": "stripestaff-product-manager-enterprise-industries-san-francisco-seattle-new-york-chicago-atlanta-remote"
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Product Manager, Payments",
+      "location": "SF, SEA, NYC, Remote",
+      "url": "https://stripe.com/jobs/search?gh_jid=7819059",
+      "posted": "2026-05-27T01:02:34-04:00",
+      "job_id": "stripestaff-product-manager-paymentssf-sea-nyc-remote"
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Product Manager, Support Experience",
+      "location": "San Francisco, California, United States",
+      "url": "https://stripe.com/jobs/search?gh_jid=7920219",
+      "posted": "2026-06-05T15:06:20-04:00",
+      "job_id": "stripestaff-product-manager-support-experiencesan-francisco-california-united-states"
+    },
+    {
+      "company": "Datadog",
+      "title": "Director, Product Management - AI Observability",
+      "location": "New York, New York, USA",
+      "url": "https://careers.datadoghq.com/detail/7798672/?gh_jid=7798672",
+      "posted": "2026-05-15T08:44:57-04:00",
+      "job_id": "datadogdirector-product-management---ai-observabilitynew-york-new-york-usa"
+    },
+    {
+      "company": "Datadog",
+      "title": "Director, Product Management - Core Platforms",
+      "location": "New York, New York, USA",
+      "url": "https://careers.datadoghq.com/detail/7583609/?gh_jid=7583609",
+      "posted": "2026-05-26T10:26:38-04:00",
+      "job_id": "datadogdirector-product-management---core-platformsnew-york-new-york-usa"
+    },
+    {
+      "company": "Datadog",
+      "title": "Director, Product Management - Infrastructure Monitoring",
+      "location": "New York, New York, USA",
+      "url": "https://careers.datadoghq.com/detail/7899504/?gh_jid=7899504",
+      "posted": "2026-05-15T08:44:57-04:00",
+      "job_id": "datadogdirector-product-management---infrastructure-monitoringnew-york-new-york-usa"
+    },
+    {
+      "company": "Datadog",
+      "title": "Group Product Manager - Threat Detection and Incident Response (Cloud SIEM)",
+      "location": "New York, New York, USA",
+      "url": "https://careers.datadoghq.com/detail/7608826/?gh_jid=7608826",
+      "posted": "2026-05-15T08:44:57-04:00",
+      "job_id": "datadoggroup-product-manager---threat-detection-and-incident-response-cloud-siemnew-york-new-york-usa"
+    },
+    {
+      "company": "Snowflake",
+      "title": "Staff Enterprise Product Manager, Order Management",
+      "location": "IN-Pune",
+      "url": "https://jobs.ashbyhq.com/snowflake/82dd2965-3860-4c43-aced-64c7515fda9f",
+      "posted": "2026-04-24T10:55:08.123+00:00",
+      "job_id": "snowflakestaff-enterprise-product-manager-order-managementin-pune"
+    },
+    {
+      "company": "Snowflake",
+      "title": "Staff Product Manager - Pipelines & Orchestration",
+      "location": "US-WA-Bellevue",
+      "url": "https://jobs.ashbyhq.com/snowflake/e1012c21-c4bc-4c98-9d03-0c8fe3c1727c",
+      "posted": "2026-03-30T21:50:39.056+00:00",
+      "job_id": "snowflakestaff-product-manager---pipelines-orchestrationus-wa-bellevue"
+    },
+    {
+      "company": "Snowflake",
+      "title": "Staff Product Manager - Developer Experience and Test Pyramid",
+      "location": "US-WA-Bellevue",
+      "url": "https://jobs.ashbyhq.com/snowflake/4a8607f9-5e63-427d-91de-183f43012c69",
+      "posted": "2026-05-18T16:34:30.303+00:00",
+      "job_id": "snowflakestaff-product-manager---developer-experience-and-test-pyramidus-wa-bellevue"
+    },
+    {
+      "company": "Snowflake",
+      "title": "Staff Product Manager, Unistore (Hybrid Tables)",
+      "location": "US-WA-Bellevue",
+      "url": "https://jobs.ashbyhq.com/snowflake/2860302b-444c-49f4-b764-ff462efbfcc0",
+      "posted": "2026-04-30T17:42:45.735+00:00",
+      "job_id": "snowflakestaff-product-manager-unistore-hybrid-tablesus-wa-bellevue"
+    }
+  ]
+}
