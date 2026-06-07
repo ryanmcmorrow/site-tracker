@@ -1,0 +1,26 @@
+name: Job Tracker
+
+on:
+  schedule:
+    - cron: '57 11,21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch ATS roles
+        run: python fetch_jobs.py
+
+      - name: Commit results
+        run: |
+          git config user.email "mcmorrowr@gmail.com"
+          git config user.name "Ryan McMorrow"
+          git add seen_jobs.json pending_email.json
+          git diff --staged --quiet || git commit -m "job-tracker fetch $(date +%Y-%m-%d)"
+          git push
