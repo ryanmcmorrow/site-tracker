@@ -21,6 +21,7 @@ jobs:
         run: |
           git config user.email "mcmorrowr@gmail.com"
           git config user.name "Ryan McMorrow"
-          git add seen_jobs.json pending_email.json
+          git add seen_jobs.json
+          [ -f pending_email.json ] && git add pending_email.json || true
           git diff --staged --quiet || git commit -m "job-tracker fetch $(date +%Y-%m-%d)"
           git push
