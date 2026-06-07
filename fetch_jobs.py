@@ -4,9 +4,11 @@ from datetime import date
 GREENHOUSE = {
     'Anthropic': 'anthropic', 'Airbnb': 'airbnb', 'Reddit': 'reddit',
     'Discord': 'discord', 'Databricks': 'databricks', 'Stripe': 'stripe',
-    'Datadog': 'datadog', 'Cloudflare': 'cloudflare', 'GitHub': 'github',
-    'Snowflake': 'snowflake',
+    'Datadog': 'datadog', 'Cloudflare': 'cloudflare',
 }
+
+ASHBY_OLD = {'OpenAI': 'openai'}   # format: {"jobPostings": [...], "locationName": ...}
+ASHBY_NEW = {'Snowflake': 'snowflake'}  # format: {"jobs": [...], "location": ...}
 
 def slugify(s):
     s = s.lower()
@@ -33,9 +35,7 @@ def title_ok(title, company):
 def loc_ok(loc):
     l = loc.lower()
     bad = ['on-site only', 'onsite only', 'in-office only']
-    if any(b in l for b in bad):
-        return False
-    return True  # permissive — ATS data is clean, routine re-filters if needed
+    return not any(b in l for b in bad)
 
 try:
     seen = json.load(open('seen_jobs.json'))
@@ -59,16 +59,34 @@ for company, token in GREENHOUSE.items():
                 'posted': j.get('updated_at', ''),
             })
 
-data = fetch('https://api.ashbyhq.com/posting-api/job-board/openai')
-if data:
+for company, slug in ASHBY_OLD.items():
+    data = fetch(f'https://api.ashbyhq.com/posting-api/job-board/{slug}')
+    if not data:
+        print(f"FAILED: {company}")
+        continue
     for j in data.get('jobPostings', []):
-        if title_ok(j['title'], 'OpenAI') and loc_ok(j.get('locationName', '')):
+        if title_ok(j['title'], company) and loc_ok(j.get('locationName', '')):
             roles.append({
-                'company': 'OpenAI',
+                'company': company,
                 'title': j['title'],
                 'location': j.get('locationName', ''),
                 'url': j.get('externalLink', ''),
                 'posted': j.get('publishedDate', ''),
+            })
+
+for company, slug in ASHBY_NEW.items():
+    data = fetch(f'https://api.ashbyhq.com/posting-api/job-board/{slug}')
+    if not data:
+        print(f"FAILED: {company}")
+        continue
+    for j in data.get('jobs', []):
+        if title_ok(j['title'], company) and loc_ok(j.get('location', '')):
+            roles.append({
+                'company': company,
+                'title': j['title'],
+                'location': j.get('location', ''),
+                'url': j.get('jobUrl', j.get('applyUrl', '')),
+                'posted': j.get('publishedAt', ''),
             })
 
 data = fetch('https://api.lever.co/v0/postings/netflix')
@@ -92,8 +110,8 @@ for r in roles:
 
 print(f"{len(new)} new / {len(roles)} matching / {len(seen)} previously seen")
 
-if len(new) > 12:
-    print("WARNING: >12 new roles — possible state corruption. Aborting.")
+if len(new) > 50:
+    print("WARNING: >50 new roles — possible state corruption. Aborting.")
 elif new:
     for r in new:
         seen[r['job_id']] = {
