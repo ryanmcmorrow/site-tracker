@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "roles": [
     {
-      "company": "Anthropic",
-      "title": "Product Manager, Platform",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4936029008",
-      "posted": "2026-06-08T21:27:17-04:00",
-      "job_id": "anthropicproduct-manager-platformsan-francisco-ca"
+      "company": "Snowflake",
+      "title": "Principal Product Manager - Zero-Copy Integrations",
+      "location": "US-WA-Bellevue",
+      "url": "https://jobs.ashbyhq.com/snowflake/0131b6dc-50b8-48bc-856a-b797554b484d",
+      "posted": "2026-06-09T17:50:12.657+00:00",
+      "job_id": "snowflakeprincipal-product-manager---zero-copy-integrationsus-wa-bellevue"
     }
   ]
 }
