@@ -1,4 +1,4 @@
-import json, re, urllib.request
+import json, os, re, urllib.request
 from datetime import date
 
 GREENHOUSE = {
@@ -57,6 +57,49 @@ def loc_ok(loc):
         return True
     l = loc.lower()
     return not any(kw in l for kw in REJECT_KEYWORDS)
+
+def send_email(roles):
+    api_key = os.environ.get('RESEND_API_KEY', '')
+    if not api_key:
+        print("No RESEND_API_KEY — skipping email")
+        return
+
+    today = date.today().isoformat()
+    subject = f"New PM Roles — {today} ({len(roles)} new)"
+
+    by_company = {}
+    for r in roles:
+        by_company.setdefault(r['company'], []).append(r)
+
+    lines = []
+    for company, company_roles in sorted(by_company.items()):
+        lines.append(f"<h3>{company}</h3>")
+        for r in company_roles:
+            posted = f" &middot; {r['posted'][:10]}" if r.get('posted') else ""
+            lines.append(f"<p><a href='{r['url']}'>{r['title']}</a><br>{r['location']}{posted}</p>")
+
+    payload = json.dumps({
+        "from": "onboarding@resend.dev",
+        "to": ["mcmorrowr@gmail.com"],
+        "subject": subject,
+        "html": "\n".join(lines),
+    }).encode()
+
+    req = urllib.request.Request(
+        "https://api.resend.com/emails",
+        data=payload,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            result = json.loads(resp.read())
+            print(f"Email sent: {result.get('id', 'ok')}")
+    except Exception as e:
+        print(f"Email failed: {e}")
 
 try:
     seen = json.load(open('seen_jobs.json'))
@@ -142,7 +185,6 @@ elif new:
             'url': r['url'],
         }
     json.dump(seen, open('seen_jobs.json', 'w'), indent=2)
-    json.dump({'date': date.today().isoformat(), 'roles': new}, open('pending_email.json', 'w'), indent=2)
-    print(f"Wrote pending_email.json with {len(new)} roles")
+    send_email(new)
 else:
     print("No new roles")
