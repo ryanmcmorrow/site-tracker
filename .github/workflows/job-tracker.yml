@@ -16,12 +16,14 @@ jobs:
 
       - name: Fetch ATS roles
         run: python fetch_jobs.py
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
 
       - name: Commit results
         run: |
           git config user.email "mcmorrowr@gmail.com"
           git config user.name "Ryan McMorrow"
           git add seen_jobs.json
-          [ -f pending_email.json ] && git add pending_email.json || true
           git diff --staged --quiet || git commit -m "job-tracker fetch $(date +%Y-%m-%d)"
           git push
+
