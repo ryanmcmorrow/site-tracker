@@ -80,7 +80,7 @@ def send_email(roles):
 
     payload = json.dumps({
         "from": "onboarding@resend.dev",
-        "to": ["mcmorrowr@gmail.com"],
+        "to": ["rytheguy@gmail.com"],
         "subject": subject,
         "html": "\n".join(lines),
     }).encode()
