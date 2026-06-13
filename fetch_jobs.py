@@ -100,8 +100,11 @@ def send_email(roles):
             print(f"Email sent: {result.get('id', 'ok')}")
 except urllib.error.HTTPError as e:
         print(f"Email failed: {e.code} {e.read().decode()}")
+except urllib.error.HTTPError as e:
+    print(f"Email failed: {e.code} {e.read().decode()}")
 except Exception as e:
-        print(f"Email failed: {e}")
+    print(f"Email failed: {e}")
+
 
 try:
     seen = json.load(open('seen_jobs.json'))
