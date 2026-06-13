@@ -15,9 +15,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Fetch ATS roles
-        run: python fetch_jobs.py
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
 
       - name: Commit results
         run: |
