@@ -1,4 +1,4 @@
-import json, os, re, urllib.request
+import json, os, re, urllib.request, urllib.error
 from datetime import date
 
 GREENHOUSE = {
@@ -98,13 +98,10 @@ def send_email(roles):
         with urllib.request.urlopen(req, timeout=15) as resp:
             result = json.loads(resp.read())
             print(f"Email sent: {result.get('id', 'ok')}")
-except urllib.error.HTTPError as e:
+    except urllib.error.HTTPError as e:
         print(f"Email failed: {e.code} {e.read().decode()}")
-except urllib.error.HTTPError as e:
-    print(f"Email failed: {e.code} {e.read().decode()}")
-except Exception as e:
-    print(f"Email failed: {e}")
-
+    except Exception as e:
+        print(f"Email failed: {e}")
 
 try:
     seen = json.load(open('seen_jobs.json'))
