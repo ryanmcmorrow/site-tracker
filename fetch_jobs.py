@@ -58,10 +58,15 @@ def loc_ok(loc):
     l = loc.lower()
     return not any(kw in l for kw in REJECT_KEYWORDS)
 
+
 def send_email(roles):
-    api_key = os.environ.get('RESEND_API_KEY', '')
-    if not api_key:
-        print("No RESEND_API_KEY — skipping email")
+    import smtplib
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+
+    app_password = os.environ.get('GMAIL_APP_PASSWORD', '')
+    if not app_password:
+        print("No GMAIL_APP_PASSWORD — skipping email")
         return
 
     today = date.today().isoformat()
@@ -78,30 +83,20 @@ def send_email(roles):
             posted = f" &middot; {r['posted'][:10]}" if r.get('posted') else ""
             lines.append(f"<p><a href='{r['url']}'>{r['title']}</a><br>{r['location']}{posted}</p>")
 
-    payload = json.dumps({
-        "from": "onboarding@resend.dev",
-        "to": ["mcmorrowr@gmail.com"],
-        "subject": subject,
-        "html": "\n".join(lines),
-    }).encode()
+    msg = MIMEMultipart('alternative')
+    msg['Subject'] = subject
+    msg['From'] = 'mcmorrowr@gmail.com'
+    msg['To'] = 'mcmorrowr@gmail.com'
+    msg.attach(MIMEText("\n".join(lines), 'html'))
 
-    req = urllib.request.Request(
-        "https://api.resend.com/emails",
-        data=payload,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
     try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            result = json.loads(resp.read())
-            print(f"Email sent: {result.get('id', 'ok')}")
-    except urllib.error.HTTPError as e:
-        print(f"Email failed: {e.code} {e.read().decode()}")
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
+            server.login('mcmorrowr@gmail.com', app_password)
+            server.sendmail('mcmorrowr@gmail.com', 'mcmorrowr@gmail.com', msg.as_string())
+            print("Email sent")
     except Exception as e:
         print(f"Email failed: {e}")
+
 
 try:
     seen = json.load(open('seen_jobs.json'))
